@@ -11,7 +11,7 @@ minetest.register_node("rot:dirt", {
 
 minetest.register_node("rot:purgator", {
 	description = "Purgator",
-	tiles = {"default_stone.png"},
+	tiles = {"default_purgator.png"},
 	groups = {cracky = 3},
 	sounds = default.node_sound_stone_defaults(),
 })
@@ -54,23 +54,23 @@ minetest.register_abm({
  end
 })
 
---[[
+--LVM para purgar el rot
 -- Get content IDs during load time, and store into a local
 local c_dirt = minetest.get_content_id("default:dirt")
 local c_rot = minetest.get_content_id("rot:dirt")
 
-local function grass_to_dirt(pos1, pos2)
+local function purge_rotdirt(pos, size)
 -- Read data into LVM
   local vm = minetest.get_voxel_manip()
-  local emin, emax = vm:read_from_map(pos1, pos2)
+  local emin, emax = vm:read_from_map(pos, pos)
   local a = VoxelArea:new{ MinEdge = emin, MaxEdge = emax }
   local data = vm:get_data()
   -- Modify data
-  for z = pos1.z, pos2.z do
-    for y = pos1.y, pos2.y do
-      for x = pos1.x, pos2.x do
+  for z = pos.z, pos.z do
+    for y = pos.y, pos.y do
+      for x = pos.x, pos.x do
         local vi = a:index(x, y, z)
-        if data[vi] == c_grass then
+        if data[vi] == c_rot then
           data[vi] = c_dirt
         end
       end
@@ -80,4 +80,14 @@ local function grass_to_dirt(pos1, pos2)
   vm:set_data(data)
   vm:write_to_map(true)
 end
-]]--
+
+--Detectar los bloques rot para pasarlos a dirt
+minetest.register_abm{
+  label = "Rot purgator",
+	nodenames = {"rot:dirt"},
+	interval = 10.0,
+	chance = 1,
+	action = function(...)
+		purge_rotdirt(...)
+	end
+}
