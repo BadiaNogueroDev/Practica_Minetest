@@ -3,26 +3,24 @@
 
 --Nodo
 minetest.register_node("rot:dirt", {
-	description = S("Rot"),
+	description = "Rot",
 	tiles = {"default_rot.png"},
 	groups = {cracky = 3},
-	--drop = "rot:orichalcum_lump", --Dropeara algo???
 	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("rot:purgator", {
-	description = S("Purgator"),
+	description = "Purgator",
 	tiles = {"default_stone.png"},
 	groups = {cracky = 3},
-	--drop = "rot:orichalcum_lump", --Dropeara algo???
 	sounds = default.node_sound_stone_defaults(),
 })
 
---Crear rot de tierra
+--Crear rot
 minetest.register_abm({
  nodenames = {"default:dirt"},
- interval = 10.0,
- chance = 5,
+ interval = 12.0,
+ chance = 50,
  action = function(pos, node, active_object_count, active_object_count_wider)
   local pos = {x = pos.x, y = pos.y, z = pos.z}
   minetest.set_node(pos, {name = "rot:dirt"})
@@ -32,14 +30,29 @@ minetest.register_abm({
 --Expandir rot
 minetest.register_abm{
   label = "Rot spread",
-	nodenames = {"rot:dirt"},
-	neighbors = {"group:soil"},
-	interval = 10,
-	chance = 1,
+	nodenames = {
+    "group:soil",
+    "group:crumbly",
+    "default:dirt_with_grass",
+  },
+	neighbors = {"rot:dirt"},
+	interval = 10.0,
+	chance = 20,
 	action = function(pos)
 		minetest.set_node(pos, {name = "rot:dirt"})
 	end,
 }
+
+--Pasar de rot a air
+minetest.register_abm({
+ nodenames = {"rot:dirt"},
+ interval = 8.0,
+ chance = 5,
+ action = function(pos, node, active_object_count, active_object_count_wider)
+  local pos = {x = pos.x, y = pos.y, z = pos.z}
+  minetest.set_node(pos, {name = "air"})
+ end
+})
 
 --[[
 -- Get content IDs during load time, and store into a local

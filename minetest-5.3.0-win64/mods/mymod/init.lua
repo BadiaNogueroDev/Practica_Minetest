@@ -3,7 +3,7 @@
 
 --Nodo
 minetest.register_node("mymod:stone_with_orichalcum", {
-	description = S("Orichalcum Ore"),
+	description = "Orichalcum Ore",
 	tiles = {"default_stone.png^default_mineral_orichalcum.png"},
 	groups = {cracky = 3},
 	drop = "mymod:orichalcum_lump",
@@ -12,12 +12,12 @@ minetest.register_node("mymod:stone_with_orichalcum", {
 
 --Craft Items
 minetest.register_craftitem("mymod:orichalcum_ingot", {
-	description = S("Orichalcum Ingot"),
+	description = "Orichalcum Ingot",
 	inventory_image = "default_orichalcum_ingot.png"
 })
 
 minetest.register_craftitem("mymod:orichalcum_lump", {
-	description = S("Orichalcum Lump"),
+	description = "Orichalcum Lump",
 	inventory_image = "default_orichalcum_lump.png"
 })
 
@@ -66,8 +66,8 @@ minetest.register_craft({
 })
 
 --Herramientas
-minetest.register_tool("default:pick_orichalcum", {
-	description = S("Orichalcum Pickaxe"),
+minetest.register_tool("mymod:pick_orichalcum", {
+	description = "Orichalcum Pickaxe",
 	inventory_image = "default_tool_orichalcumpick.png",
 	tool_capabilities = {
 		full_punch_interval = 0.9,
@@ -81,8 +81,8 @@ minetest.register_tool("default:pick_orichalcum", {
 	groups = {pickaxe = 1}
 })
 
-minetest.register_tool("default:shovel_orichalcum", {
-	description = S("Orichalcum Shovel"),
+minetest.register_tool("mymod:shovel_orichalcum", {
+	description = "Orichalcum Shovel",
 	inventory_image = "default_tool_orichalcumshovel.png",
 	wield_image = "default_tool_orichalcumshovel.png^[transformR90",
 	tool_capabilities = {
@@ -97,8 +97,8 @@ minetest.register_tool("default:shovel_orichalcum", {
 	groups = {shovel = 1}
 })
 
-minetest.register_tool("default:axe_orichalcum", {
-	description = S("Orichalcum Axe"),
+minetest.register_tool("mymod:axe_orichalcum", {
+	description = "Orichalcum Axe",
 	inventory_image = "default_tool_orichalcumaxe.png",
 	tool_capabilities = {
 		full_punch_interval = 0.9,
@@ -112,8 +112,8 @@ minetest.register_tool("default:axe_orichalcum", {
 	groups = {axe = 1}
 })
 
-minetest.register_tool("default:sword_orichalcum", {
-	description = S("Orichalcum Sword"),
+minetest.register_tool("mymod:sword_orichalcum", {
+	description = "Orichalcum Sword",
 	inventory_image = "default_tool_orichalcumsword.png",
 	tool_capabilities = {
 		full_punch_interval = 0.7,
@@ -130,7 +130,7 @@ minetest.register_tool("default:sword_orichalcum", {
 --Spawn del mineral
 minetest.register_ore({
   ore_type       = "scatter",
-  ore            = "default:stone_with_orichalcum",
+  ore            = "mymod:stone_with_orichalcum",
   wherein        = "default:stone",
   clust_scarcity = 8 * 8 * 8,
   clust_num_ores = 9,
@@ -141,7 +141,7 @@ minetest.register_ore({
 
 minetest.register_ore({
   ore_type       = "scatter",
-  ore            = "default:stone_with_orichalcum",
+  ore            = "mymod:stone_with_orichalcum",
   wherein        = "default:stone",
   clust_scarcity = 8 * 8 * 8,
   clust_num_ores = 8,
@@ -152,7 +152,7 @@ minetest.register_ore({
 
 minetest.register_ore({
   ore_type       = "scatter",
-  ore            = "default:stone_with_orichalcum",
+  ore            = "mymod:stone_with_orichalcum",
   wherein        = "default:stone",
   clust_scarcity = 12 * 12 * 12,
   clust_num_ores = 30,

@@ -1,0 +1,441 @@
+
+
+-------------
+  Separator
+-------------
+
+2020-11-26 19:01:57: WARNING[Main]: Undeclared global variable "S" accessed at ...\Practica3\minetest-5.3.0-win64\bin\..\mods\rot\init.lua:6
+2020-11-26 19:01:57: ERROR[Main]: ModError: Failed to load and run script from C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\mods\rot\init.lua:
+2020-11-26 19:01:57: ERROR[Main]: ...\Practica3\minetest-5.3.0-win64\bin\..\mods\rot\init.lua:6: attempt to call global 'S' (a nil value)
+2020-11-26 19:01:57: ERROR[Main]: stack traceback:
+2020-11-26 19:01:57: ERROR[Main]: 	...\Practica3\minetest-5.3.0-win64\bin\..\mods\rot\init.lua:6: in main chunk
+2020-11-26 19:01:57: ERROR[Main]: Revisa debug.txt para más detalles.
+2020-11-26 19:01:57: ACTION[Main]: Server: Shutting down
+2020-11-26 19:02:14: WARNING[Main]: Undeclared global variable "S" accessed at ...ractica3\minetest-5.3.0-win64\bin\..\mods\mymod\init.lua:6
+2020-11-26 19:02:14: ERROR[Main]: ModError: Failed to load and run script from C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\mods\mymod\init.lua:
+2020-11-26 19:02:14: ERROR[Main]: ...ractica3\minetest-5.3.0-win64\bin\..\mods\mymod\init.lua:6: attempt to call global 'S' (a nil value)
+2020-11-26 19:02:14: ERROR[Main]: stack traceback:
+2020-11-26 19:02:14: ERROR[Main]: 	...ractica3\minetest-5.3.0-win64\bin\..\mods\mymod\init.lua:6: in main chunk
+2020-11-26 19:02:14: ERROR[Main]: Revisa debug.txt para más detalles.
+2020-11-26 19:02:14: ACTION[Main]: Server: Shutting down
+2020-11-26 19:03:33: ERROR[Main]: ModError: Failed to load and run script from C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\mods\mymod\init.lua:
+2020-11-26 19:03:33: ERROR[Main]: ...a3\minetest-5.3.0-win64\bin\..\builtin\game\register.lua:65: Name default:pick_orichalcum does not follow naming conventions: "mymod:" or ":" prefix required
+2020-11-26 19:03:33: ERROR[Main]: stack traceback:
+2020-11-26 19:03:33: ERROR[Main]: 	[C]: in function 'error'
+2020-11-26 19:03:33: ERROR[Main]: 	...a3\minetest-5.3.0-win64\bin\..\builtin\game\register.lua:65: in function 'check_modname_prefix'
+2020-11-26 19:03:33: ERROR[Main]: 	...a3\minetest-5.3.0-win64\bin\..\builtin\game\register.lua:115: in function 'register_item'
+2020-11-26 19:03:33: ERROR[Main]: 	...a3\minetest-5.3.0-win64\bin\..\builtin\game\register.lua:271: in function 'register_tool'
+2020-11-26 19:03:33: ERROR[Main]: 	...ractica3\minetest-5.3.0-win64\bin\..\mods\mymod\init.lua:69: in main chunk
+2020-11-26 19:03:33: ERROR[Main]: Revisa debug.txt para más detalles.
+2020-11-26 19:03:33: ACTION[Main]: Server: Shutting down
+2020-11-26 19:04:35: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\Test]
+2020-11-26 19:04:35: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:60497.
+2020-11-26 19:04:39: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 19:04:50: ACTION[Server]: singleplayer activates 
+2020-11-26 19:05:20: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:05:24: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:05:27: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:05:29: ACTION[Server]: singleplayer takes mymod:orichalcum_lump from creative inventory
+2020-11-26 19:05:30: ACTION[Server]: singleplayer takes mymod:orichalcum_ingot from creative inventory
+2020-11-26 19:05:32: ACTION[Server]: singleplayer takes mymod:sword_orichalcum from creative inventory
+2020-11-26 19:05:33: ACTION[Server]: singleplayer takes mymod:shovel_orichalcum from creative inventory
+2020-11-26 19:05:34: ACTION[Server]: singleplayer takes mymod:pick_orichalcum from creative inventory
+2020-11-26 19:05:37: ACTION[Server]: singleplayer takes mymod:axe_orichalcum from creative inventory
+2020-11-26 19:05:42: ACTION[Server]: singleplayer takes default:furnace from creative inventory
+2020-11-26 19:05:48: ACTION[Server]: player singleplayer (id=1, hp=20) punched LuaEntitySAO "__builtin:item" at (-36,18,-37) (id=3, hp=1), damage=0
+2020-11-26 19:05:54: ACTION[Server]: singleplayer places node default:furnace at (-40,18,-36)
+2020-11-26 19:06:03: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-41,17,-37)
+2020-11-26 19:06:11: ACTION[Server]: singleplayer takes default:coal_lump from creative inventory
+2020-11-26 19:06:16: ACTION[Server]: singleplayer takes default:coal_lump from creative inventory
+2020-11-26 19:06:16: ACTION[Server]: singleplayer takes default:coal_lump from creative inventory
+2020-11-26 19:06:16: ACTION[Server]: singleplayer takes default:coal_lump from creative inventory
+2020-11-26 19:06:17: ACTION[Server]: singleplayer takes default:coal_lump from creative inventory
+2020-11-26 19:06:17: ACTION[Server]: singleplayer takes default:coal_lump from creative inventory
+2020-11-26 19:06:17: ACTION[Server]: singleplayer takes default:coal_lump from creative inventory
+2020-11-26 19:06:17: ACTION[Server]: singleplayer takes default:coal_lump from creative inventory
+2020-11-26 19:06:18: ACTION[Server]: singleplayer takes default:coal_lump from creative inventory
+2020-11-26 19:06:18: ACTION[Server]: singleplayer takes default:coal_lump from creative inventory
+2020-11-26 19:06:18: ACTION[Server]: singleplayer takes default:coal_lump from creative inventory
+2020-11-26 19:06:18: ACTION[Server]: singleplayer takes default:coal_lump from creative inventory
+2020-11-26 19:06:18: ACTION[Server]: singleplayer takes default:coal_lump from creative inventory
+2020-11-26 19:06:18: ACTION[Server]: singleplayer takes default:coal_lump from creative inventory
+2020-11-26 19:06:19: ACTION[Server]: singleplayer takes default:coal_lump from creative inventory
+2020-11-26 19:06:26: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:06:26: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:06:26: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:06:26: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:06:26: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:06:26: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:06:27: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:06:27: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:06:27: ACTION[Server]: singleplayer takes mymod:orichalcum_lump from creative inventory
+2020-11-26 19:06:27: ACTION[Server]: singleplayer takes mymod:orichalcum_lump from creative inventory
+2020-11-26 19:06:28: ACTION[Server]: singleplayer takes mymod:orichalcum_lump from creative inventory
+2020-11-26 19:06:28: ACTION[Server]: singleplayer takes mymod:orichalcum_lump from creative inventory
+2020-11-26 19:06:28: ACTION[Server]: singleplayer takes mymod:orichalcum_lump from creative inventory
+2020-11-26 19:06:28: ACTION[Server]: singleplayer takes mymod:orichalcum_lump from creative inventory
+2020-11-26 19:06:28: ACTION[Server]: singleplayer takes mymod:orichalcum_lump from creative inventory
+2020-11-26 19:06:28: ACTION[Server]: singleplayer takes mymod:orichalcum_lump from creative inventory
+2020-11-26 19:06:29: ACTION[Server]: singleplayer takes mymod:orichalcum_ingot from creative inventory
+2020-11-26 19:06:29: ACTION[Server]: singleplayer takes mymod:orichalcum_ingot from creative inventory
+2020-11-26 19:06:29: ACTION[Server]: singleplayer takes mymod:orichalcum_ingot from creative inventory
+2020-11-26 19:06:29: ACTION[Server]: singleplayer takes mymod:orichalcum_ingot from creative inventory
+2020-11-26 19:06:30: ACTION[Server]: singleplayer takes mymod:orichalcum_ingot from creative inventory
+2020-11-26 19:06:30: ACTION[Server]: singleplayer takes mymod:orichalcum_ingot from creative inventory
+2020-11-26 19:06:30: ACTION[Server]: singleplayer takes mymod:orichalcum_ingot from creative inventory
+2020-11-26 19:06:44: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-41,17,-37)
+2020-11-26 19:06:45: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-41,18,-38)
+2020-11-26 19:06:46: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-41,18,-38)
+2020-11-26 19:06:46: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-41,17,-38)
+2020-11-26 19:06:47: ACTION[Server]: singleplayer digs default:dirt at (-41,16,-38)
+2020-11-26 19:06:48: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-41,16,-38)
+2020-11-26 19:06:48: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-41,17,-38)
+2020-11-26 19:06:49: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-41,17,-37)
+2020-11-26 19:06:51: ACTION[Server]: singleplayer digs default:dirt at (-41,16,-37)
+2020-11-26 19:06:52: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-41,16,-37)
+2020-11-26 19:06:53: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-41,17,-37)
+2020-11-26 19:06:56: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-41,17,-37)
+2020-11-26 19:06:59: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-41,17,-38)
+2020-11-26 19:07:00: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-41,16,-37)
+2020-11-26 19:07:04: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-41,16,-38)
+2020-11-26 19:07:04: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-41,17,-39)
+2020-11-26 19:07:12: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-35,19,-31)
+2020-11-26 19:07:15: ACTION[Server]: singleplayer digs default:stone at (-35,19,-30)
+2020-11-26 19:07:16: ACTION[Server]: singleplayer digs default:stone at (-35,20,-30)
+2020-11-26 19:07:16: ACTION[Server]: singleplayer digs default:stone at (-35,21,-30)
+2020-11-26 19:07:18: ACTION[Server]: singleplayer digs default:stone at (-35,22,-30)
+2020-11-26 19:07:18: ACTION[Server]: singleplayer digs default:stone at (-35,23,-30)
+2020-11-26 19:07:18: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-35,24,-30)
+2020-11-26 19:07:19: ACTION[Server]: singleplayer digs default:stone at (-35,25,-30)
+2020-11-26 19:07:19: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-35,26,-30)
+2020-11-26 19:07:19: ACTION[Server]: singleplayer digs default:stone at (-35,27,-30)
+2020-11-26 19:07:19: ACTION[Server]: singleplayer digs default:stone at (-35,28,-30)
+2020-11-26 19:07:19: ACTION[Server]: singleplayer digs default:dirt at (-35,29,-30)
+2020-11-26 19:07:20: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-35,30,-30)
+2020-11-26 19:08:13: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:13: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:13: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:13: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:14: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:14: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:14: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:14: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:14: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:14: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:15: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:16: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:16: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:17: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:17: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:17: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:17: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:17: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:17: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:18: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:18: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:18: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:18: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:18: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:18: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:18: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:19: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:19: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:19: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:19: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:19: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:19: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:19: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:20: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:20: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:20: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:20: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:20: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:20: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:20: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:21: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:21: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:21: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:21: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:21: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:22: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:22: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:22: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:22: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:22: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:22: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:23: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:23: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-26 19:08:36: ACTION[Server]: player singleplayer crafts mymod:shovel_orichalcum
+2020-11-26 19:08:51: ACTION[Server]: player singleplayer crafts mymod:pick_orichalcum
+2020-11-26 19:09:30: ACTION[Server]: player singleplayer crafts mymod:axe_orichalcum
+2020-11-26 19:09:46: ACTION[Server]: player singleplayer crafts mymod:sword_orichalcum
+2020-11-26 19:10:13: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-41,17,-40)
+2020-11-26 19:10:20: ACTION[Main]: Server: Shutting down
+2020-11-26 19:10:24: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\Test]
+2020-11-26 19:10:24: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:57099.
+2020-11-26 19:10:25: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 19:10:33: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-39,18,-32)
+2020-11-26 19:10:34: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-40,18,-32)
+2020-11-26 19:10:35: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-39,19,-32)
+2020-11-26 19:10:35: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-40,19,-32)
+2020-11-26 19:10:38: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-39,19,-32)
+2020-11-26 19:10:39: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-40,19,-32)
+2020-11-26 19:10:41: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-39,18,-32)
+2020-11-26 19:10:42: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-40,18,-32)
+2020-11-26 19:10:57: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-47,18,-30)
+2020-11-26 19:10:57: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-47,18,-31)
+2020-11-26 19:10:58: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-47,18,-32)
+2020-11-26 19:10:58: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-47,18,-33)
+2020-11-26 19:10:59: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-47,18,-34)
+2020-11-26 19:11:01: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-46,18,-30)
+2020-11-26 19:11:02: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-46,18,-31)
+2020-11-26 19:11:06: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-46,18,-31)
+2020-11-26 19:11:07: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-46,18,-30)
+2020-11-26 19:11:08: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-47,18,-30)
+2020-11-26 19:11:09: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-47,18,-31)
+2020-11-26 19:11:10: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-47,18,-32)
+2020-11-26 19:11:11: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-47,18,-33)
+2020-11-26 19:11:12: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-47,18,-34)
+2020-11-26 19:11:16: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-41,18,-28)
+2020-11-26 19:11:18: ACTION[Server]: singleplayer digs default:stone at (-36,18,-29)
+2020-11-26 19:11:18: ACTION[Server]: singleplayer digs default:stone at (-35,18,-29)
+2020-11-26 19:11:20: ACTION[Server]: singleplayer digs default:stone at (-36,20,-29)
+2020-11-26 19:11:20: ACTION[Server]: singleplayer digs default:stone at (-36,19,-29)
+2020-11-26 19:11:20: ACTION[Server]: singleplayer digs default:stone at (-35,20,-29)
+2020-11-26 19:11:21: ACTION[Server]: singleplayer digs default:stone at (-36,21,-29)
+2020-11-26 19:11:21: ACTION[Server]: singleplayer digs default:stone at (-35,21,-29)
+2020-11-26 19:11:21: ACTION[Server]: singleplayer digs default:stone at (-36,22,-29)
+2020-11-26 19:11:22: ACTION[Server]: singleplayer digs default:stone at (-35,22,-29)
+2020-11-26 19:11:23: ACTION[Server]: singleplayer digs default:stone at (-36,23,-29)
+2020-11-26 19:11:24: ACTION[Server]: singleplayer digs default:stone at (-35,23,-29)
+2020-11-26 19:11:33: ACTION[Server]: singleplayer digs default:stone at (-35,24,-29)
+2020-11-26 19:11:34: ACTION[Server]: singleplayer digs default:stone at (-35,25,-29)
+2020-11-26 19:11:37: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-35,24,-28)
+2020-11-26 19:11:37: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-35,25,-28)
+2020-11-26 19:11:42: ACTION[Main]: Server: Shutting down
+2020-11-26 19:11:51: WARNING[Main]: Undeclared global variable "S" accessed at ...\Practica3\minetest-5.3.0-win64\bin\..\mods\rot\init.lua:6
+2020-11-26 19:11:51: ERROR[Main]: ModError: Failed to load and run script from C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\mods\rot\init.lua:
+2020-11-26 19:11:51: ERROR[Main]: ...\Practica3\minetest-5.3.0-win64\bin\..\mods\rot\init.lua:6: attempt to call global 'S' (a nil value)
+2020-11-26 19:11:51: ERROR[Main]: stack traceback:
+2020-11-26 19:11:51: ERROR[Main]: 	...\Practica3\minetest-5.3.0-win64\bin\..\mods\rot\init.lua:6: in main chunk
+2020-11-26 19:11:51: ERROR[Main]: Revisa debug.txt para más detalles.
+2020-11-26 19:11:51: ACTION[Main]: Server: Shutting down
+2020-11-26 19:12:21: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\Test]
+2020-11-26 19:12:21: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:58556.
+2020-11-26 19:12:24: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 19:12:29: ACTION[Server]: player singleplayer (id=1, hp=20) punched LuaEntitySAO "__builtin:item" at (-41,18,-34) (id=6, hp=1), damage=0
+2020-11-26 19:12:29: ACTION[Server]: player singleplayer (id=1, hp=20) punched LuaEntitySAO "__builtin:item" at (-41,18,-34) (id=7, hp=1), damage=0
+2020-11-26 19:12:30: ACTION[Server]: player singleplayer (id=1, hp=20) punched LuaEntitySAO "__builtin:item" at (-41,18,-34) (id=3, hp=1), damage=0
+2020-11-26 19:12:30: ACTION[Server]: player singleplayer (id=1, hp=20) punched LuaEntitySAO "__builtin:item" at (-41,18,-34) (id=2, hp=1), damage=0
+2020-11-26 19:12:30: ACTION[Server]: player singleplayer (id=1, hp=20) punched LuaEntitySAO "__builtin:item" at (-41,18,-34) (id=4, hp=1), damage=0
+2020-11-26 19:12:31: ACTION[Server]: player singleplayer (id=1, hp=20) punched LuaEntitySAO "__builtin:item" at (-41,18,-34) (id=5, hp=1), damage=0
+2020-11-26 19:12:51: ACTION[Server]: singleplayer takes rot:dirt from creative inventory
+2020-11-26 19:12:55: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-45,17,-40)
+2020-11-26 19:12:56: ACTION[Server]: singleplayer places node rot:dirt at (-45,17,-40)
+2020-11-26 19:13:25: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-44,17,-40)
+2020-11-26 19:13:25: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-44,17,-39)
+2020-11-26 19:13:27: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-45,17,-39)
+2020-11-26 19:13:30: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-46,17,-39)
+2020-11-26 19:13:31: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-47,17,-39)
+2020-11-26 19:13:31: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-48,17,-39)
+2020-11-26 19:13:32: ACTION[Server]: singleplayer digs default:dirt at (-48,16,-39)
+2020-11-26 19:13:32: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-49,17,-39)
+2020-11-26 19:13:41: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-48,17,-38)
+2020-11-26 19:13:41: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-47,17,-38)
+2020-11-26 19:13:41: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-46,17,-38)
+2020-11-26 19:13:41: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-45,17,-38)
+2020-11-26 19:13:42: ACTION[Server]: singleplayer digs rot:dirt at (-45,16,-38)
+2020-11-26 19:13:42: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-44,17,-38)
+2020-11-26 19:13:51: ACTION[Server]: singleplayer digs default:dirt at (-47,16,-39)
+2020-11-26 19:13:52: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-47,17,-40)
+2020-11-26 19:13:53: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-47,17,-41)
+2020-11-26 19:13:53: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-46,17,-40)
+2020-11-26 19:13:53: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-48,17,-40)
+2020-11-26 19:13:54: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-49,17,-40)
+2020-11-26 19:13:54: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-49,17,-41)
+2020-11-26 19:13:54: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-48,17,-41)
+2020-11-26 19:13:54: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-48,17,-42)
+2020-11-26 19:13:55: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-47,17,-42)
+2020-11-26 19:13:55: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-46,17,-41)
+2020-11-26 19:13:55: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-46,17,-42)
+2020-11-26 19:13:55: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-46,17,-43)
+2020-11-26 19:13:56: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-46,17,-44)
+2020-11-26 19:13:56: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-47,17,-43)
+2020-11-26 19:13:56: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-48,17,-43)
+2020-11-26 19:13:56: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-49,17,-43)
+2020-11-26 19:13:57: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-49,17,-44)
+2020-11-26 19:13:57: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-49,17,-42)
+2020-11-26 19:13:57: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-50,17,-43)
+2020-11-26 19:14:02: ACTION[Main]: Server: Shutting down
+2020-11-26 19:14:40: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\Rot test]
+2020-11-26 19:14:40: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:57592.
+2020-11-26 19:14:41: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 19:15:12: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-45,17,-43)
+2020-11-26 19:15:13: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-45,17,-44)
+2020-11-26 19:15:15: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-45,17,-45)
+2020-11-26 19:15:15: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-45,17,-46)
+2020-11-26 19:15:16: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-45,17,-47)
+2020-11-26 19:15:16: ACTION[Server]: singleplayer digs rot:dirt at (-45,16,-47)
+2020-11-26 19:15:16: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-45,17,-48)
+2020-11-26 19:15:16: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-45,16,-49)
+2020-11-26 19:15:17: ACTION[Server]: singleplayer digs default:dirt at (-45,16,-48)
+2020-11-26 19:15:25: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-46,17,-48)
+2020-11-26 19:15:25: ACTION[Server]: singleplayer digs default:dirt at (-46,16,-48)
+2020-11-26 19:15:26: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-46,17,-47)
+2020-11-26 19:15:26: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-46,17,-46)
+2020-11-26 19:15:27: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-46,17,-45)
+2020-11-26 19:15:27: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-47,17,-47)
+2020-11-26 19:15:27: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-47,17,-46)
+2020-11-26 19:15:27: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-47,17,-45)
+2020-11-26 19:15:28: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-47,17,-44)
+2020-11-26 19:15:28: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-48,17,-46)
+2020-11-26 19:15:29: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-48,17,-45)
+2020-11-26 19:15:29: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-49,17,-45)
+2020-11-26 19:15:29: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-49,17,-44)
+2020-11-26 19:15:29: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-48,17,-44)
+2020-11-26 19:15:29: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-48,17,-43)
+2020-11-26 19:15:32: ACTION[Main]: Server: Shutting down
+2020-11-26 19:19:17: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\Rot test 2]
+2020-11-26 19:19:17: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:64995.
+2020-11-26 19:19:19: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 19:19:38: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-27,19,-37)
+2020-11-26 19:19:43: ACTION[Main]: Server: Shutting down
+2020-11-26 19:20:23: ERROR[Main]: ModError: Failed to load and run script from C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\mods\rot\init.lua:
+2020-11-26 19:20:23: ERROR[Main]: ...\Practica3\minetest-5.3.0-win64\bin\..\mods\rot\init.lua:39: '}' expected (to close '{' at line 36) near '"default:dirt_with_grass"'
+2020-11-26 19:20:23: ERROR[Main]: Revisa debug.txt para más detalles.
+2020-11-26 19:20:23: ACTION[Main]: Server: Shutting down
+2020-11-26 19:20:40: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\Rot test 2]
+2020-11-26 19:20:40: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:63174.
+2020-11-26 19:20:43: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 19:21:16: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-44,17,-48)
+2020-11-26 19:21:17: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-45,17,-48)
+2020-11-26 19:21:17: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-46,17,-48)
+2020-11-26 19:21:17: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-47,17,-47)
+2020-11-26 19:21:18: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-46,17,-47)
+2020-11-26 19:21:18: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-46,17,-46)
+2020-11-26 19:21:18: ACTION[Server]: singleplayer digs default:dirt at (-46,16,-46)
+2020-11-26 19:21:18: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-45,17,-47)
+2020-11-26 19:21:18: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-45,17,-46)
+2020-11-26 19:21:19: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-44,17,-47)
+2020-11-26 19:21:19: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-44,17,-46)
+2020-11-26 19:21:19: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-46,17,-45)
+2020-11-26 19:21:20: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-47,17,-46)
+2020-11-26 19:21:20: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-48,17,-46)
+2020-11-26 19:21:20: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-48,17,-45)
+2020-11-26 19:21:21: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-49,17,-45)
+2020-11-26 19:21:21: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-49,17,-44)
+2020-11-26 19:21:21: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-48,17,-44)
+2020-11-26 19:21:21: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-50,17,-43)
+2020-11-26 19:21:22: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-50,17,-42)
+2020-11-26 19:21:22: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-49,17,-42)
+2020-11-26 19:21:22: ACTION[Server]: singleplayer digs rot:dirt at (-49,16,-42)
+2020-11-26 19:21:22: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-49,17,-43)
+2020-11-26 19:21:28: ACTION[Main]: Server: Shutting down
+2020-11-26 19:28:30: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\rot]
+2020-11-26 19:28:30: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:52566.
+2020-11-26 19:28:32: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 19:28:52: WARNING[Server]: active block modifiers took 201ms (processed 107 of 251 active blocks)
+2020-11-26 19:29:02: WARNING[Server]: active block modifiers took 203ms (processed 171 of 251 active blocks)
+2020-11-26 19:29:07: ACTION[Main]: Server: Shutting down
+2020-11-26 19:29:33: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\o]
+2020-11-26 19:29:33: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:59581.
+2020-11-26 19:29:36: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 19:29:43: ACTION[Main]: Server: Shutting down
+2020-11-26 19:29:48: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\o]
+2020-11-26 19:29:48: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:62797.
+2020-11-26 19:29:49: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 19:29:56: ACTION[Server]: singleplayer takes rot:dirt from creative inventory
+2020-11-26 19:30:27: ACTION[Server]: singleplayer places node rot:dirt at (-52,17,-40)
+2020-11-26 19:30:46: ACTION[Main]: Server: Shutting down
+2020-11-26 19:33:43: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\AIR]
+2020-11-26 19:33:43: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:57035.
+2020-11-26 19:33:46: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 19:34:30: ACTION[Main]: Server: Shutting down
+2020-11-26 19:38:03: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\lololo]
+2020-11-26 19:38:03: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:50578.
+2020-11-26 19:38:05: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 19:39:09: ACTION[Main]: Server: Shutting down
+2020-11-26 19:39:43: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\lololo]
+2020-11-26 19:39:43: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:55684.
+2020-11-26 19:39:46: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 19:40:21: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:40:21: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:40:21: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:40:21: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:40:21: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:40:21: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:40:21: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:40:21: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:40:22: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:40:22: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:40:22: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:40:22: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:40:22: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:40:22: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:40:22: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:40:23: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-26 19:40:25: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-33,16,-73)
+2020-11-26 19:40:26: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-33,17,-73)
+2020-11-26 19:40:26: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-33,18,-73)
+2020-11-26 19:40:27: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-33,19,-73)
+2020-11-26 19:40:27: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-33,20,-73)
+2020-11-26 19:40:28: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-33,21,-73)
+2020-11-26 19:40:29: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-33,22,-73)
+2020-11-26 19:40:29: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-33,23,-73)
+2020-11-26 19:40:30: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-33,24,-73)
+2020-11-26 19:40:30: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-33,25,-73)
+2020-11-26 19:40:31: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-33,26,-73)
+2020-11-26 19:40:31: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-33,27,-73)
+2020-11-26 19:40:32: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-33,28,-73)
+2020-11-26 19:40:32: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-33,29,-73)
+2020-11-26 19:40:52: ACTION[Main]: Server: Shutting down
+2020-11-26 19:42:38: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\ppp]
+2020-11-26 19:42:38: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:58181.
+2020-11-26 19:42:40: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 19:42:44: ACTION[Server]: singleplayer takes default:aspen_tree from creative inventory
+2020-11-26 19:42:46: ACTION[Server]: singleplayer places node default:aspen_tree at (-65,17,-64)
+2020-11-26 19:42:47: ACTION[Server]: singleplayer places node default:aspen_tree at (-65,18,-64)
+2020-11-26 19:42:47: ACTION[Server]: singleplayer places node default:aspen_tree at (-65,19,-64)
+2020-11-26 19:42:47: ACTION[Server]: singleplayer places node default:aspen_tree at (-65,20,-64)
+2020-11-26 19:42:48: ACTION[Server]: singleplayer places node default:aspen_tree at (-65,21,-64)
+2020-11-26 19:42:49: ACTION[Server]: singleplayer places node default:aspen_tree at (-65,22,-64)
+2020-11-26 19:42:49: ACTION[Server]: singleplayer places node default:aspen_tree at (-65,23,-64)
+2020-11-26 19:42:49: ACTION[Server]: singleplayer places node default:aspen_tree at (-65,24,-64)
+2020-11-26 19:43:42: ACTION[Server]: singleplayer places node default:aspen_tree at (-65,25,-64)
+2020-11-26 19:43:42: ACTION[Server]: singleplayer places node default:aspen_tree at (-65,26,-64)
+2020-11-26 19:43:43: ACTION[Server]: singleplayer places node default:aspen_tree at (-65,27,-64)
+2020-11-26 19:43:43: ACTION[Server]: singleplayer places node default:aspen_tree at (-65,28,-64)
+2020-11-26 19:44:10: ACTION[Server]: singleplayer places node default:aspen_tree at (-65,29,-64)
+2020-11-26 19:44:11: ACTION[Server]: singleplayer places node default:aspen_tree at (-65,30,-64)
+2020-11-26 19:44:20: ACTION[Server]: singleplayer places node default:aspen_tree at (-65,31,-64)
+2020-11-26 19:44:20: ACTION[Server]: singleplayer places node default:aspen_tree at (-65,32,-64)
+2020-11-26 19:44:25: ACTION[Main]: Server: Shutting down
+2020-11-26 19:44:54: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\popo]
+2020-11-26 19:44:54: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:60972.
+2020-11-26 19:44:55: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 19:44:57: ACTION[Main]: Server: Shutting down
+2020-11-26 19:45:01: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\popo]
+2020-11-26 19:45:01: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:53893.
+2020-11-26 19:45:02: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 19:45:07: ACTION[Server]: singleplayer takes default:aspen_tree from creative inventory
+2020-11-26 19:45:08: ACTION[Server]: singleplayer places node default:aspen_tree at (-63,17,-64)
+2020-11-26 19:45:08: ACTION[Server]: singleplayer places node default:aspen_tree at (-63,18,-64)
+2020-11-26 19:45:10: ACTION[Server]: singleplayer places node default:aspen_tree at (-63,19,-64)
+2020-11-26 19:45:10: ACTION[Server]: singleplayer places node default:aspen_tree at (-63,20,-64)
+2020-11-26 19:45:10: ACTION[Server]: singleplayer places node default:aspen_tree at (-63,21,-64)
+2020-11-26 19:45:10: ACTION[Server]: singleplayer places node default:aspen_tree at (-63,22,-64)
+2020-11-26 19:45:11: ACTION[Server]: singleplayer places node default:aspen_tree at (-63,23,-64)
+2020-11-26 19:45:11: ACTION[Server]: singleplayer places node default:aspen_tree at (-63,24,-64)
+2020-11-26 19:45:11: ACTION[Server]: singleplayer places node default:aspen_tree at (-63,25,-64)
+2020-11-26 19:45:12: ACTION[Server]: singleplayer places node default:aspen_tree at (-63,26,-64)
+2020-11-26 19:45:12: ACTION[Server]: singleplayer places node default:aspen_tree at (-63,27,-64)
+2020-11-26 19:45:12: ACTION[Server]: singleplayer places node default:aspen_tree at (-63,28,-64)
+2020-11-26 19:45:13: ACTION[Server]: singleplayer places node default:aspen_tree at (-63,29,-64)
+2020-11-26 19:45:13: ACTION[Server]: singleplayer places node default:aspen_tree at (-63,30,-64)
+2020-11-26 19:45:13: ACTION[Server]: singleplayer places node default:aspen_tree at (-63,31,-64)
+2020-11-26 19:45:14: ACTION[Server]: singleplayer places node default:aspen_tree at (-63,32,-64)
+2020-11-26 19:45:14: ACTION[Server]: singleplayer places node default:aspen_tree at (-63,33,-64)
+2020-11-26 19:46:29: ACTION[Server]: singleplayer places node default:aspen_tree at (-63,34,-64)
+2020-11-26 19:46:30: ACTION[Server]: singleplayer places node default:aspen_tree at (-63,35,-64)
+2020-11-26 19:46:30: ACTION[Server]: singleplayer places node default:aspen_tree at (-63,36,-64)
+2020-11-26 19:46:34: ACTION[Main]: Server: Shutting down
