@@ -18,24 +18,33 @@ minetest.register_node("rot:purgator", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
---ABM LO USAREMOS PARA LA ENFERMEDAD 
---Crear expansion de tierra
+--Crear rot de tierra
 minetest.register_abm({
  nodenames = {"default:dirt"},
  interval = 10.0,
  chance = 5,
- catch_up = true, --esto indica si hay que tener en cuenta el tiempo del nodo antes de cargarlo
  action = function(pos, node, active_object_count, active_object_count_wider)
- local pos = {x = pos.x, y = pos.y, z = pos.z}
- minetest.set_node(pos, {name = "rot:dirt"})
+  local pos = {x = pos.x, y = pos.y, z = pos.z}
+  minetest.set_node(pos, {name = "rot:dirt"})
  end
 })
 
+--Expandir rot
+minetest.register_abm{
+  label = "Rot spread",
+	nodenames = {"rot:dirt"},
+	neighbors = {"group:soil"},
+	interval = 10,
+	chance = 1,
+	action = function(pos)
+		minetest.set_node(pos, {name = "rot:dirt"})
+	end,
+}
 
---LVM LO USAREMOS PARA LA CURA
+--[[
 -- Get content IDs during load time, and store into a local
 local c_dirt = minetest.get_content_id("default:dirt")
-local c_grass = minetest.get_content_id("default:dirt_with_grass")
+local c_rot = minetest.get_content_id("rot:dirt")
 
 local function grass_to_dirt(pos1, pos2)
 -- Read data into LVM
@@ -58,3 +67,4 @@ local function grass_to_dirt(pos1, pos2)
   vm:set_data(data)
   vm:write_to_map(true)
 end
+]]--
