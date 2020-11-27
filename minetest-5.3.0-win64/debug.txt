@@ -647,3 +647,697 @@
 2020-11-27 17:32:57: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:56264.
 2020-11-27 17:32:58: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
 2020-11-27 17:33:00: ACTION[Main]: Server: Shutting down
+2020-11-27 17:58:46: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\g]
+2020-11-27 17:58:46: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:55269.
+2020-11-27 17:58:49: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-27 17:58:55: ACTION[Server]: singleplayer takes teleport:pad from creative inventory
+2020-11-27 17:58:57: ACTION[Server]: singleplayer places node teleport:pad at (-63,17,-61)
+2020-11-27 17:58:57: WARNING[Server]: Undeclared global variable "pos" accessed at ...tica3\minetest-5.3.0-win64\bin\..\mods\teleport\init.lua:25
+2020-11-27 17:58:57: ERROR[Main]: ServerError: AsyncErr: ServerThread::run Lua: Runtime error from mod 'teleport' in callback item_OnPlace(): ...tica3\minetest-5.3.0-win64\bin\..\mods\teleport\init.lua:25: attempt to index global 'pos' (a nil value)
+2020-11-27 17:58:57: ERROR[Main]: stack traceback:
+2020-11-27 17:58:57: ERROR[Main]: 	...tica3\minetest-5.3.0-win64\bin\..\mods\teleport\init.lua:25: in function 'after_place_node'
+2020-11-27 17:58:57: ERROR[Main]: 	...ctica3\minetest-5.3.0-win64\bin\..\builtin\game\item.lua:385: in function <...ctica3\minetest-5.3.0-win64\bin\..\builtin\game\item.lua:258>
+2020-11-27 17:58:57: ACTION[Server]: singleplayer leaves game. List of players: 
+2020-11-27 17:58:57: ACTION[Main]: Server: Shutting down
+2020-11-27 18:14:58: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\g]
+2020-11-27 18:14:58: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:63598.
+2020-11-27 18:14:58: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-27 18:15:00: ACTION[Server]: singleplayer places node teleport:pad at (-64,17,-62)
+2020-11-27 18:23:46: ACTION[Main]: Server: Shutting down
+2020-11-27 18:23:47: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\g]
+2020-11-27 18:23:47: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:59452.
+2020-11-27 18:23:48: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-27 18:23:56: ACTION[Server]: singleplayer places node teleport:pad at (-62,17,-63)
+2020-11-27 18:24:01: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-62,17,-63 above=-62,17,-64]
+2020-11-27 18:24:02: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-62,17,-63 above=-62,17,-64]
+2020-11-27 18:24:03: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-62,17,-63 above=-62,17,-64]
+2020-11-27 18:24:03: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-62,17,-63 above=-62,18,-63]
+2020-11-27 18:24:04: ACTION[Server]: singleplayer digs teleport:pad at (-62,17,-63)
+2020-11-27 18:24:04: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-62,16,-63)
+2020-11-27 18:24:05: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-62,16,-62)
+2020-11-27 18:24:05: ACTION[Server]: singleplayer digs teleport:pad at (-64,17,-62)
+2020-11-27 18:24:06: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-64,16,-61)
+2020-11-27 18:24:06: ACTION[Server]: singleplayer digs teleport:pad at (-63,17,-61)
+2020-11-27 18:24:06: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-63,16,-60)
+2020-11-27 18:24:10: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-56,16,-55)
+2020-11-27 18:24:10: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-55,16,-54)
+2020-11-27 18:24:10: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-54,16,-53)
+2020-11-27 18:24:11: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-53,16,-52)
+2020-11-27 18:24:11: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-52,16,-51)
+2020-11-27 18:24:11: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-51,16,-50)
+2020-11-27 18:24:12: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-50,16,-48)
+2020-11-27 18:24:12: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-49,16,-47)
+2020-11-27 18:24:12: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-49,16,-46)
+2020-11-27 18:24:13: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-48,17,-46)
+2020-11-27 18:25:06: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-126,8,37)
+2020-11-27 18:25:06: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-126,8,38)
+2020-11-27 18:25:06: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-126,8,39)
+2020-11-27 18:25:06: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-126,8,40)
+2020-11-27 18:25:07: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-126,8,41)
+2020-11-27 18:25:07: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-126,8,42)
+2020-11-27 18:25:07: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-126,8,43)
+2020-11-27 18:25:07: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-126,8,44)
+2020-11-27 18:25:07: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-126,8,45)
+2020-11-27 18:25:08: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-126,8,46)
+2020-11-27 18:25:08: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-126,8,47)
+2020-11-27 18:25:08: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-126,8,48)
+2020-11-27 18:25:08: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-126,8,49)
+2020-11-27 18:25:09: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-126,8,50)
+2020-11-27 18:25:24: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-125,26,64)
+2020-11-27 18:25:25: ACTION[Server]: singleplayer digs default:dirt at (-124,28,63)
+2020-11-27 18:25:27: ACTION[Server]: singleplayer digs default:dirt at (-124,29,63)
+2020-11-27 18:25:31: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-124,30,63)
+2020-11-27 18:25:31: ACTION[Server]: singleplayer digs default:dirt at (-125,30,63)
+2020-11-27 18:25:32: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-125,31,63)
+2020-11-27 18:25:32: ACTION[Server]: singleplayer digs default:dirt at (-125,29,63)
+2020-11-27 18:25:35: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-125,30,62)
+2020-11-27 18:25:42: ACTION[Server]: singleplayer damaged by 3 hp at (-123.13,22.742,65.219)
+2020-11-27 18:25:54: ACTION[Server]: singleplayer digs default:blueberry_bush_leaves_with_berries at (-100,23,88)
+2020-11-27 18:25:54: ACTION[Server]: singleplayer digs default:blueberry_bush_leaves at (-100,23,88)
+2020-11-27 18:25:54: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-100,22,88)
+2020-11-27 18:25:54: ACTION[Server]: singleplayer digs default:blueberry_bush_leaves_with_berries at (-101,23,88)
+2020-11-27 18:25:54: ACTION[Server]: singleplayer digs default:blueberry_bush_leaves_with_berries at (-101,23,87)
+2020-11-27 18:25:55: ACTION[Server]: singleplayer digs default:blueberry_bush_leaves at (-101,23,87)
+2020-11-27 18:25:55: ACTION[Server]: singleplayer digs default:blueberry_bush_leaves at (-101,23,88)
+2020-11-27 18:25:59: ACTION[Server]: singleplayer damaged by 1 hp at (-89.433,16.966,82.523)
+2020-11-27 18:26:02: ACTION[Server]: singleplayer places node default:dirt at (-80,11,81)
+2020-11-27 18:26:02: ACTION[Server]: singleplayer places node default:dirt at (-80,12,81)
+2020-11-27 18:26:02: ACTION[Server]: singleplayer places node default:dirt at (-80,13,81)
+2020-11-27 18:26:03: ACTION[Server]: singleplayer places node default:dirt at (-80,14,81)
+2020-11-27 18:26:03: ACTION[Server]: singleplayer places node default:dirt at (-80,15,81)
+2020-11-27 18:26:03: ACTION[Server]: singleplayer places node default:dirt at (-80,16,81)
+2020-11-27 18:26:04: ACTION[Server]: singleplayer places node default:dirt at (-80,17,81)
+2020-11-27 18:26:04: ACTION[Server]: singleplayer places node default:dirt at (-80,18,81)
+2020-11-27 18:26:04: ACTION[Server]: singleplayer places node default:dirt at (-80,19,81)
+2020-11-27 18:26:04: ACTION[Server]: singleplayer places node default:dirt at (-80,20,81)
+2020-11-27 18:26:05: ACTION[Server]: singleplayer places node default:dirt at (-80,21,81)
+2020-11-27 18:26:07: ACTION[Server]: singleplayer places node default:dirt at (-80,22,81)
+2020-11-27 18:26:07: ACTION[Server]: singleplayer places node default:dirt at (-80,23,81)
+2020-11-27 18:26:07: ACTION[Server]: singleplayer places node default:dirt at (-80,24,81)
+2020-11-27 18:26:08: ACTION[Server]: singleplayer places node default:dirt at (-79,21,81)
+2020-11-27 18:26:09: ACTION[Server]: singleplayer places node default:dirt at (-79,22,81)
+2020-11-27 18:26:09: ACTION[Server]: singleplayer places node default:dirt at (-79,23,81)
+2020-11-27 18:26:18: ACTION[Server]: singleplayer takes default:torch from creative inventory
+2020-11-27 18:26:21: ACTION[Server]: player singleplayer (id=1, hp=16) punched LuaEntitySAO "__builtin:item" at (-76,27,89) (id=4, hp=1), damage=0
+2020-11-27 18:26:26: ACTION[Server]: singleplayer places node default:torch at (-73,32,95)
+2020-11-27 18:26:27: ACTION[Server]: singleplayer places node default:torch_wall at (-70,34,94)
+2020-11-27 18:26:28: ACTION[Server]: singleplayer places node default:torch_wall at (-67,37,91)
+2020-11-27 18:26:29: ACTION[Server]: singleplayer places node default:torch_wall at (-67,37,95)
+2020-11-27 18:26:30: ACTION[Server]: singleplayer places node default:torch_wall at (-63,39,95)
+2020-11-27 18:26:31: ACTION[Server]: singleplayer places node default:torch at (-62,39,101)
+2020-11-27 18:26:33: ACTION[Server]: singleplayer places node default:torch_wall at (-59,39,105)
+2020-11-27 18:26:34: ACTION[Server]: singleplayer places node default:torch_wall at (-65,36,108)
+2020-11-27 18:26:35: ACTION[Server]: singleplayer places node default:torch_wall at (-64,34,108)
+2020-11-27 18:26:35: ACTION[Server]: singleplayer places node default:torch at (-62,30,115)
+2020-11-27 18:26:36: ACTION[Server]: singleplayer places node default:torch at (-65,30,118)
+2020-11-27 18:26:36: ACTION[Server]: singleplayer places node default:torch_wall at (-64,32,112)
+2020-11-27 18:26:37: ACTION[Server]: singleplayer places node default:torch at (-69,31,118)
+2020-11-27 18:26:38: ACTION[Server]: singleplayer activates default:torch
+2020-11-27 18:26:38: ACTION[Server]: singleplayer activates default:torch
+2020-11-27 18:26:39: ACTION[Server]: singleplayer places node default:torch at (-60,28,121)
+2020-11-27 18:26:39: ACTION[Server]: singleplayer places node default:torch at (-56,27,119)
+2020-11-27 18:26:41: ACTION[Server]: singleplayer places node default:torch at (-57,27,121)
+2020-11-27 18:26:42: ACTION[Server]: singleplayer places node default:torch at (-53,26,117)
+2020-11-27 18:26:43: ACTION[Server]: singleplayer places node default:torch at (-50,25,116)
+2020-11-27 18:26:43: ACTION[Server]: singleplayer places node default:torch at (-46,25,115)
+2020-11-27 18:26:44: ACTION[Server]: singleplayer places node default:torch at (-39,25,114)
+2020-11-27 18:26:44: ACTION[Server]: singleplayer activates default:torch
+2020-11-27 18:26:45: ACTION[Server]: singleplayer places node default:torch_wall at (-38,26,117)
+2020-11-27 18:26:45: ACTION[Server]: singleplayer places node default:torch_wall at (-38,27,119)
+2020-11-27 18:26:46: ACTION[Server]: singleplayer places node default:torch_wall at (-37,28,120)
+2020-11-27 18:26:47: ACTION[Server]: singleplayer places node default:torch_wall at (-34,29,121)
+2020-11-27 18:26:48: ACTION[Server]: singleplayer places node default:torch_wall at (-31,31,125)
+2020-11-27 18:26:48: ACTION[Server]: singleplayer places node default:torch_wall at (-33,30,125)
+2020-11-27 18:26:49: ACTION[Server]: singleplayer places node default:torch_wall at (-37,29,127)
+2020-11-27 18:26:49: ACTION[Server]: singleplayer places node default:torch at (-40,29,129)
+2020-11-27 18:26:50: ACTION[Server]: singleplayer activates default:torch
+2020-11-27 18:26:50: ACTION[Server]: singleplayer places node default:torch at (-43,28,129)
+2020-11-27 18:26:51: ACTION[Server]: singleplayer activates default:torch
+2020-11-27 18:26:52: ACTION[Server]: singleplayer places node default:torch at (-48,27,130)
+2020-11-27 18:26:52: ACTION[Server]: singleplayer activates default:torch
+2020-11-27 18:26:53: ACTION[Server]: singleplayer places node default:torch at (-54,27,133)
+2020-11-27 18:26:55: ACTION[Server]: singleplayer places node default:torch at (-52,27,137)
+2020-11-27 18:26:56: ACTION[Server]: singleplayer places node default:torch at (-53,27,142)
+2020-11-27 18:26:57: ACTION[Server]: singleplayer places node default:torch at (-55,27,141)
+2020-11-27 18:26:58: ACTION[Server]: singleplayer places node default:torch at (-57,26,146)
+2020-11-27 18:27:07: ACTION[Server]: singleplayer places node default:torch_wall at (-31,30,123)
+2020-11-27 18:27:08: ACTION[Server]: singleplayer activates default:torch
+2020-11-27 18:27:09: ACTION[Server]: singleplayer places node default:torch_wall at (-28,31,121)
+2020-11-27 18:27:09: ACTION[Server]: singleplayer places node default:torch at (-25,32,119)
+2020-11-27 18:27:10: ACTION[Server]: singleplayer places node default:torch_wall at (-22,31,116)
+2020-11-27 18:27:11: ACTION[Server]: singleplayer places node default:torch at (-20,32,115)
+2020-11-27 18:27:12: ACTION[Server]: singleplayer places node default:torch_wall at (-17,33,114)
+2020-11-27 18:27:13: ACTION[Server]: singleplayer places node default:torch at (-13,33,109)
+2020-11-27 18:27:14: ACTION[Server]: singleplayer places node default:torch at (-18,28,105)
+2020-11-27 18:27:14: ACTION[Server]: singleplayer places node default:torch at (-22,25,106)
+2020-11-27 18:27:15: ACTION[Server]: singleplayer activates default:torch
+2020-11-27 18:27:16: ACTION[Server]: singleplayer places node default:torch at (-23,23,101)
+2020-11-27 18:27:16: ACTION[Server]: singleplayer places node default:torch at (-24,23,102)
+2020-11-27 18:27:17: ACTION[Server]: singleplayer places node default:torch at (-24,22,98)
+2020-11-27 18:27:18: ACTION[Server]: singleplayer places node default:torch at (-22,20,94)
+2020-11-27 18:27:19: ACTION[Server]: singleplayer places node default:torch at (-22,18,92)
+2020-11-27 18:27:20: ACTION[Server]: singleplayer activates default:torch
+2020-11-27 18:27:20: ACTION[Server]: singleplayer places node default:torch at (-21,8,89)
+2020-11-27 18:27:21: ACTION[Server]: singleplayer places node default:torch at (-22,7,87)
+2020-11-27 18:27:21: ACTION[Server]: singleplayer damaged by 7 hp at (-21.746,7.574,87.57)
+2020-11-27 18:27:21: ACTION[Server]: singleplayer places node default:torch at (-25,5,85)
+2020-11-27 18:27:22: ACTION[Server]: singleplayer places node default:torch at (-26,4,84)
+2020-11-27 18:27:23: ACTION[Server]: singleplayer activates default:torch
+2020-11-27 18:27:23: ACTION[Server]: singleplayer activates default:torch
+2020-11-27 18:27:24: ACTION[Server]: singleplayer activates default:torch
+2020-11-27 18:27:24: ACTION[Server]: singleplayer activates default:torch
+2020-11-27 18:27:24: ACTION[Server]: singleplayer activates default:torch
+2020-11-27 18:27:25: ACTION[Server]: singleplayer damaged by 9 hp at (-28.814,-11.14,79.43)
+2020-11-27 18:27:25: ACTION[Server]: singleplayer dies at (-29,-11,79). No bones placed
+2020-11-27 18:27:26: ACTION[Server]: singleplayer respawns at (-64,18,-64)
+2020-11-27 18:27:32: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-62,16,-64)
+2020-11-27 18:27:32: ACTION[Server]: singleplayer digs default:stone at (-62,15,-64)
+2020-11-27 18:27:32: ACTION[Server]: singleplayer digs default:stone at (-62,14,-64)
+2020-11-27 18:27:32: ACTION[Server]: singleplayer digs default:stone at (-62,13,-64)
+2020-11-27 18:27:33: ACTION[Server]: singleplayer digs default:stone at (-62,12,-64)
+2020-11-27 18:27:34: ACTION[Server]: singleplayer digs default:stone at (-62,11,-64)
+2020-11-27 18:27:34: ACTION[Server]: singleplayer digs default:stone at (-62,10,-64)
+2020-11-27 18:27:34: ACTION[Server]: singleplayer digs default:stone at (-62,9,-64)
+2020-11-27 18:27:34: ACTION[Server]: singleplayer digs default:stone at (-62,8,-64)
+2020-11-27 18:27:35: ACTION[Server]: singleplayer digs default:stone at (-62,7,-64)
+2020-11-27 18:27:35: ACTION[Server]: singleplayer digs default:stone at (-62,6,-64)
+2020-11-27 18:27:35: ACTION[Server]: singleplayer digs default:stone at (-62,5,-64)
+2020-11-27 18:27:35: ACTION[Server]: singleplayer digs default:stone at (-62,4,-64)
+2020-11-27 18:27:36: ACTION[Server]: singleplayer digs default:stone at (-62,3,-64)
+2020-11-27 18:27:36: ACTION[Server]: singleplayer digs default:stone at (-62,2,-64)
+2020-11-27 18:27:36: ACTION[Server]: singleplayer digs default:stone at (-62,1,-64)
+2020-11-27 18:27:36: ACTION[Server]: singleplayer digs default:stone at (-62,0,-64)
+2020-11-27 18:27:36: ACTION[Server]: singleplayer digs default:stone at (-62,-1,-64)
+2020-11-27 18:27:37: ACTION[Server]: singleplayer digs default:stone at (-62,-2,-64)
+2020-11-27 18:27:37: ACTION[Server]: singleplayer digs default:stone at (-62,-3,-64)
+2020-11-27 18:27:37: ACTION[Server]: singleplayer digs default:stone at (-62,-4,-64)
+2020-11-27 18:27:37: ACTION[Server]: singleplayer digs default:stone at (-62,-5,-64)
+2020-11-27 18:27:37: ACTION[Server]: singleplayer digs default:stone at (-62,-6,-64)
+2020-11-27 18:27:38: ACTION[Server]: singleplayer digs default:stone at (-62,-7,-64)
+2020-11-27 18:27:38: ACTION[Server]: singleplayer digs default:stone at (-62,-8,-64)
+2020-11-27 18:27:38: ACTION[Server]: singleplayer digs default:stone at (-62,-9,-64)
+2020-11-27 18:27:38: ACTION[Server]: singleplayer digs default:stone at (-62,-10,-64)
+2020-11-27 18:27:38: ACTION[Server]: singleplayer digs default:stone at (-62,-11,-64)
+2020-11-27 18:27:39: ACTION[Server]: singleplayer digs default:stone at (-62,-12,-64)
+2020-11-27 18:27:39: ACTION[Server]: singleplayer digs default:stone at (-62,-13,-64)
+2020-11-27 18:27:39: ACTION[Server]: singleplayer digs default:stone at (-62,-14,-64)
+2020-11-27 18:27:39: ACTION[Server]: singleplayer digs default:stone at (-62,-15,-64)
+2020-11-27 18:27:39: ACTION[Server]: singleplayer digs default:stone at (-62,-16,-64)
+2020-11-27 18:27:40: ACTION[Server]: singleplayer digs default:stone at (-62,-17,-64)
+2020-11-27 18:27:40: ACTION[Server]: singleplayer digs default:stone at (-62,-18,-64)
+2020-11-27 18:27:40: ACTION[Server]: singleplayer digs default:stone at (-62,-19,-64)
+2020-11-27 18:27:40: ACTION[Server]: singleplayer digs default:stone at (-62,-20,-64)
+2020-11-27 18:27:41: ACTION[Server]: singleplayer digs default:stone at (-62,-21,-64)
+2020-11-27 18:27:41: ACTION[Server]: singleplayer digs default:stone at (-62,-22,-64)
+2020-11-27 18:27:41: ACTION[Server]: singleplayer digs default:stone at (-62,-23,-64)
+2020-11-27 18:27:41: ACTION[Server]: singleplayer digs default:stone at (-62,-24,-64)
+2020-11-27 18:27:41: ACTION[Server]: singleplayer digs default:stone at (-62,-25,-64)
+2020-11-27 18:27:42: ACTION[Server]: singleplayer digs default:stone at (-62,-26,-64)
+2020-11-27 18:27:42: ACTION[Server]: singleplayer digs default:stone at (-62,-27,-64)
+2020-11-27 18:27:42: ACTION[Server]: singleplayer digs default:stone at (-62,-28,-64)
+2020-11-27 18:27:42: ACTION[Server]: singleplayer digs default:stone at (-62,-29,-64)
+2020-11-27 18:27:42: ACTION[Server]: singleplayer digs default:stone at (-62,-30,-64)
+2020-11-27 18:27:43: ACTION[Server]: singleplayer digs default:stone at (-62,-31,-64)
+2020-11-27 18:27:43: ACTION[Server]: singleplayer digs default:stone at (-62,-32,-64)
+2020-11-27 18:27:43: ACTION[Server]: singleplayer digs default:stone at (-62,-33,-64)
+2020-11-27 18:27:43: ACTION[Server]: singleplayer digs default:stone at (-62,-34,-64)
+2020-11-27 18:27:43: ACTION[Server]: singleplayer digs default:stone at (-62,-35,-64)
+2020-11-27 18:27:44: ACTION[Server]: singleplayer digs default:stone at (-62,-36,-64)
+2020-11-27 18:27:44: ACTION[Server]: singleplayer digs default:stone at (-62,-37,-64)
+2020-11-27 18:27:44: ACTION[Server]: singleplayer digs default:stone at (-62,-38,-64)
+2020-11-27 18:27:44: ACTION[Server]: singleplayer digs default:stone at (-62,-39,-64)
+2020-11-27 18:27:44: ACTION[Server]: singleplayer digs default:stone at (-62,-40,-64)
+2020-11-27 18:27:45: ACTION[Server]: singleplayer digs default:stone at (-62,-41,-64)
+2020-11-27 18:27:45: ACTION[Server]: singleplayer digs default:stone at (-62,-42,-64)
+2020-11-27 18:27:45: ACTION[Server]: singleplayer digs default:stone at (-62,-43,-64)
+2020-11-27 18:27:45: ACTION[Server]: singleplayer digs default:stone at (-62,-44,-64)
+2020-11-27 18:27:45: ACTION[Server]: singleplayer digs default:stone at (-62,-45,-64)
+2020-11-27 18:27:46: ACTION[Server]: singleplayer digs default:stone at (-62,-46,-64)
+2020-11-27 18:27:46: ACTION[Server]: singleplayer digs default:stone at (-62,-47,-64)
+2020-11-27 18:27:46: ACTION[Server]: singleplayer digs default:stone at (-62,-48,-64)
+2020-11-27 18:27:46: ACTION[Server]: singleplayer digs default:stone at (-62,-49,-64)
+2020-11-27 18:27:46: ACTION[Server]: singleplayer digs default:stone at (-62,-50,-64)
+2020-11-27 18:27:47: ACTION[Server]: singleplayer digs default:stone at (-62,-51,-64)
+2020-11-27 18:27:47: ACTION[Server]: singleplayer digs default:stone at (-62,-52,-64)
+2020-11-27 18:27:47: ACTION[Server]: singleplayer digs default:stone at (-62,-53,-64)
+2020-11-27 18:27:47: ACTION[Server]: singleplayer digs default:stone at (-62,-54,-64)
+2020-11-27 18:27:47: ACTION[Server]: singleplayer digs default:stone at (-62,-55,-64)
+2020-11-27 18:27:48: ACTION[Server]: singleplayer digs default:stone at (-62,-56,-64)
+2020-11-27 18:27:48: ACTION[Server]: singleplayer digs default:stone at (-62,-57,-64)
+2020-11-27 18:27:48: ACTION[Server]: singleplayer digs default:stone at (-62,-58,-64)
+2020-11-27 18:27:48: ACTION[Server]: singleplayer digs default:stone at (-62,-59,-64)
+2020-11-27 18:27:49: ACTION[Server]: singleplayer digs default:stone at (-62,-60,-64)
+2020-11-27 18:27:49: ACTION[Server]: singleplayer digs default:stone at (-62,-61,-64)
+2020-11-27 18:27:49: ACTION[Server]: singleplayer digs default:stone_with_coal at (-62,-62,-64)
+2020-11-27 18:27:49: ACTION[Server]: singleplayer digs default:stone at (-62,-63,-64)
+2020-11-27 18:27:49: ACTION[Server]: singleplayer digs default:stone at (-62,-64,-64)
+2020-11-27 18:27:50: ACTION[Server]: singleplayer digs default:stone at (-62,-65,-64)
+2020-11-27 18:27:50: ACTION[Server]: singleplayer digs default:stone at (-62,-66,-64)
+2020-11-27 18:27:50: ACTION[Server]: singleplayer digs default:stone at (-62,-67,-64)
+2020-11-27 18:27:50: ACTION[Server]: singleplayer digs default:stone at (-62,-68,-64)
+2020-11-27 18:27:50: ACTION[Server]: singleplayer digs default:stone_with_coal at (-62,-69,-64)
+2020-11-27 18:27:51: ACTION[Server]: singleplayer digs default:stone at (-62,-70,-64)
+2020-11-27 18:27:51: ACTION[Server]: singleplayer digs default:stone at (-62,-71,-64)
+2020-11-27 18:27:51: ACTION[Server]: singleplayer digs default:stone at (-62,-72,-64)
+2020-11-27 18:27:51: ACTION[Server]: singleplayer digs default:stone at (-62,-73,-64)
+2020-11-27 18:27:51: ACTION[Server]: singleplayer digs default:stone at (-62,-74,-64)
+2020-11-27 18:27:52: ACTION[Server]: singleplayer digs default:stone at (-62,-75,-64)
+2020-11-27 18:27:52: ACTION[Server]: singleplayer digs default:stone at (-62,-76,-64)
+2020-11-27 18:27:52: ACTION[Server]: singleplayer digs default:stone at (-62,-77,-64)
+2020-11-27 18:27:52: ACTION[Server]: singleplayer digs default:stone at (-62,-78,-64)
+2020-11-27 18:27:52: ACTION[Server]: singleplayer digs default:stone at (-62,-79,-64)
+2020-11-27 18:27:53: ACTION[Server]: singleplayer digs default:stone at (-62,-80,-64)
+2020-11-27 18:27:53: ACTION[Server]: singleplayer digs default:stone at (-62,-81,-64)
+2020-11-27 18:27:53: ACTION[Server]: singleplayer digs default:stone at (-62,-82,-64)
+2020-11-27 18:27:53: ACTION[Server]: singleplayer digs default:stone at (-62,-83,-64)
+2020-11-27 18:27:53: ACTION[Server]: singleplayer digs default:stone at (-62,-84,-64)
+2020-11-27 18:27:54: ACTION[Server]: singleplayer digs default:stone at (-62,-85,-64)
+2020-11-27 18:27:54: ACTION[Server]: singleplayer digs default:stone at (-62,-86,-64)
+2020-11-27 18:27:54: ACTION[Server]: singleplayer digs default:stone at (-62,-87,-64)
+2020-11-27 18:27:54: ACTION[Server]: singleplayer digs default:stone at (-62,-88,-64)
+2020-11-27 18:27:55: ACTION[Server]: singleplayer digs default:stone at (-62,-89,-64)
+2020-11-27 18:27:55: ACTION[Server]: singleplayer digs default:stone at (-62,-90,-64)
+2020-11-27 18:27:55: ACTION[Server]: singleplayer digs default:stone at (-62,-91,-64)
+2020-11-27 18:27:58: ACTION[Server]: singleplayer digs default:stone at (-62,-92,-64)
+2020-11-27 18:27:59: ACTION[Server]: singleplayer digs default:stone at (-62,-93,-64)
+2020-11-27 18:27:59: ACTION[Server]: singleplayer digs default:stone at (-62,-94,-64)
+2020-11-27 18:27:59: ACTION[Server]: singleplayer digs default:stone at (-62,-95,-64)
+2020-11-27 18:27:59: ACTION[Server]: singleplayer digs default:stone at (-62,-96,-64)
+2020-11-27 18:27:59: ACTION[Server]: singleplayer digs default:stone at (-62,-97,-64)
+2020-11-27 18:27:59: ACTION[Server]: singleplayer digs default:stone at (-62,-98,-64)
+2020-11-27 18:28:00: ACTION[Server]: singleplayer digs default:stone at (-62,-99,-64)
+2020-11-27 18:28:00: ACTION[Server]: singleplayer digs default:stone at (-62,-100,-64)
+2020-11-27 18:28:00: ACTION[Server]: singleplayer digs default:stone at (-62,-101,-64)
+2020-11-27 18:28:00: ACTION[Server]: singleplayer digs default:stone at (-62,-102,-64)
+2020-11-27 18:28:01: ACTION[Server]: singleplayer digs default:stone at (-62,-103,-64)
+2020-11-27 18:28:01: ACTION[Server]: singleplayer digs default:stone at (-62,-104,-64)
+2020-11-27 18:28:01: ACTION[Server]: singleplayer digs default:stone at (-62,-105,-64)
+2020-11-27 18:28:01: ACTION[Server]: singleplayer digs default:stone at (-62,-106,-64)
+2020-11-27 18:28:01: ACTION[Server]: singleplayer digs default:stone at (-62,-107,-64)
+2020-11-27 18:28:02: ACTION[Server]: singleplayer digs default:stone at (-62,-108,-64)
+2020-11-27 18:28:02: ACTION[Server]: singleplayer digs default:stone at (-62,-109,-64)
+2020-11-27 18:28:02: ACTION[Server]: singleplayer digs default:stone at (-62,-110,-64)
+2020-11-27 18:28:02: ACTION[Server]: singleplayer digs default:stone at (-62,-111,-64)
+2020-11-27 18:28:02: ACTION[Server]: singleplayer digs default:stone at (-62,-112,-64)
+2020-11-27 18:28:03: ACTION[Server]: singleplayer digs default:stone at (-62,-113,-64)
+2020-11-27 18:28:03: ACTION[Server]: singleplayer digs default:stone at (-62,-114,-64)
+2020-11-27 18:28:03: ACTION[Server]: singleplayer digs default:stone at (-62,-115,-64)
+2020-11-27 18:28:03: ACTION[Server]: singleplayer digs default:stone at (-62,-116,-64)
+2020-11-27 18:28:03: ACTION[Server]: singleplayer digs default:stone at (-62,-117,-64)
+2020-11-27 18:28:04: ACTION[Server]: singleplayer digs default:stone at (-62,-118,-64)
+2020-11-27 18:28:04: ACTION[Server]: singleplayer digs default:stone_with_tin at (-62,-119,-64)
+2020-11-27 18:28:04: ACTION[Server]: singleplayer digs default:stone at (-62,-120,-64)
+2020-11-27 18:28:04: ACTION[Server]: singleplayer digs default:stone at (-62,-121,-64)
+2020-11-27 18:28:04: ACTION[Server]: singleplayer digs default:stone at (-62,-122,-64)
+2020-11-27 18:28:05: ACTION[Server]: singleplayer digs default:stone at (-62,-123,-64)
+2020-11-27 18:28:05: ACTION[Server]: singleplayer digs default:stone at (-62,-124,-64)
+2020-11-27 18:28:05: ACTION[Server]: singleplayer digs default:stone at (-62,-125,-64)
+2020-11-27 18:28:05: ACTION[Server]: singleplayer digs default:stone at (-62,-126,-64)
+2020-11-27 18:28:05: ACTION[Server]: singleplayer digs default:stone at (-62,-127,-64)
+2020-11-27 18:28:06: ACTION[Server]: singleplayer digs default:stone at (-62,-128,-64)
+2020-11-27 18:28:06: ACTION[Server]: singleplayer digs default:stone at (-62,-129,-64)
+2020-11-27 18:28:06: ACTION[Server]: singleplayer digs default:stone at (-62,-130,-64)
+2020-11-27 18:28:06: ACTION[Server]: singleplayer digs default:stone at (-62,-131,-64)
+2020-11-27 18:28:07: ACTION[Server]: singleplayer digs default:stone at (-62,-132,-64)
+2020-11-27 18:28:07: ACTION[Server]: singleplayer digs default:stone at (-62,-133,-64)
+2020-11-27 18:28:07: ACTION[Server]: singleplayer digs default:stone_with_iron at (-62,-134,-64)
+2020-11-27 18:28:07: ACTION[Server]: singleplayer digs default:stone at (-62,-135,-64)
+2020-11-27 18:28:07: ACTION[Server]: singleplayer digs default:stone at (-62,-136,-64)
+2020-11-27 18:28:07: ACTION[Server]: singleplayer digs default:stone_with_coal at (-62,-137,-64)
+2020-11-27 18:28:08: ACTION[Server]: singleplayer digs default:stone at (-62,-138,-64)
+2020-11-27 18:28:08: ACTION[Server]: singleplayer digs default:stone at (-62,-139,-64)
+2020-11-27 18:28:08: ACTION[Server]: singleplayer digs default:stone at (-62,-140,-64)
+2020-11-27 18:28:08: ACTION[Server]: singleplayer digs default:stone at (-62,-141,-64)
+2020-11-27 18:28:09: ACTION[Server]: singleplayer digs default:stone at (-62,-142,-64)
+2020-11-27 18:28:09: ACTION[Server]: singleplayer digs default:stone at (-62,-143,-64)
+2020-11-27 18:28:09: ACTION[Server]: singleplayer digs default:stone at (-62,-144,-64)
+2020-11-27 18:28:09: ACTION[Server]: singleplayer digs default:stone at (-62,-145,-64)
+2020-11-27 18:28:09: ACTION[Server]: singleplayer digs default:stone at (-62,-146,-64)
+2020-11-27 18:28:10: ACTION[Server]: singleplayer digs default:stone at (-62,-147,-64)
+2020-11-27 18:28:10: ACTION[Server]: singleplayer digs default:stone at (-62,-148,-64)
+2020-11-27 18:28:10: ACTION[Server]: singleplayer digs default:stone at (-62,-149,-64)
+2020-11-27 18:28:10: ACTION[Server]: singleplayer digs default:stone at (-62,-150,-64)
+2020-11-27 18:28:10: ACTION[Server]: singleplayer digs default:stone at (-62,-151,-64)
+2020-11-27 18:28:11: ACTION[Server]: singleplayer digs default:stone at (-62,-152,-64)
+2020-11-27 18:28:11: ACTION[Server]: singleplayer digs default:stone at (-62,-153,-64)
+2020-11-27 18:28:11: ACTION[Server]: singleplayer digs default:stone at (-62,-154,-64)
+2020-11-27 18:28:11: ACTION[Server]: singleplayer digs default:stone at (-62,-155,-64)
+2020-11-27 18:28:11: ACTION[Server]: singleplayer digs default:stone at (-62,-156,-64)
+2020-11-27 18:28:12: ACTION[Server]: singleplayer digs default:stone at (-62,-157,-64)
+2020-11-27 18:28:12: ACTION[Server]: singleplayer digs default:stone at (-62,-158,-64)
+2020-11-27 18:28:12: ACTION[Server]: singleplayer digs default:stone at (-62,-159,-64)
+2020-11-27 18:28:12: ACTION[Server]: singleplayer digs default:stone_with_copper at (-62,-160,-64)
+2020-11-27 18:28:12: ACTION[Server]: singleplayer digs default:stone at (-62,-161,-64)
+2020-11-27 18:28:13: ACTION[Server]: singleplayer digs default:stone at (-62,-162,-64)
+2020-11-27 18:28:13: ACTION[Server]: singleplayer digs default:stone at (-62,-163,-64)
+2020-11-27 18:28:13: ACTION[Server]: singleplayer digs default:stone at (-62,-164,-64)
+2020-11-27 18:28:13: ACTION[Server]: singleplayer digs default:stone at (-62,-165,-64)
+2020-11-27 18:28:13: ACTION[Server]: singleplayer digs default:stone at (-62,-166,-64)
+2020-11-27 18:28:14: ACTION[Server]: singleplayer digs default:stone at (-62,-167,-64)
+2020-11-27 18:28:14: ACTION[Server]: singleplayer digs default:stone at (-62,-168,-64)
+2020-11-27 18:28:14: ACTION[Server]: singleplayer digs default:stone at (-62,-169,-64)
+2020-11-27 18:28:14: ACTION[Server]: singleplayer digs default:stone at (-62,-170,-64)
+2020-11-27 18:28:15: ACTION[Server]: singleplayer digs default:stone at (-62,-171,-64)
+2020-11-27 18:28:15: ACTION[Server]: singleplayer digs default:stone at (-62,-172,-64)
+2020-11-27 18:28:15: ACTION[Server]: singleplayer digs default:stone at (-62,-173,-64)
+2020-11-27 18:28:15: ACTION[Server]: singleplayer digs default:stone at (-62,-174,-64)
+2020-11-27 18:28:15: ACTION[Server]: singleplayer digs default:stone at (-62,-175,-64)
+2020-11-27 18:28:16: ACTION[Server]: singleplayer digs default:stone at (-62,-176,-64)
+2020-11-27 18:28:16: ACTION[Server]: singleplayer digs default:stone at (-62,-177,-64)
+2020-11-27 18:28:16: ACTION[Server]: singleplayer digs default:stone at (-62,-178,-64)
+2020-11-27 18:28:16: ACTION[Server]: singleplayer digs default:stone at (-62,-179,-64)
+2020-11-27 18:28:16: ACTION[Server]: singleplayer digs default:stone at (-62,-180,-64)
+2020-11-27 18:28:17: ACTION[Server]: singleplayer digs default:stone at (-62,-181,-64)
+2020-11-27 18:28:17: ACTION[Server]: singleplayer digs default:stone at (-62,-182,-64)
+2020-11-27 18:28:17: ACTION[Server]: singleplayer digs default:stone at (-62,-183,-64)
+2020-11-27 18:28:17: ACTION[Server]: singleplayer digs default:stone_with_coal at (-62,-184,-64)
+2020-11-27 18:28:17: ACTION[Server]: singleplayer digs default:stone at (-62,-185,-64)
+2020-11-27 18:28:18: ACTION[Server]: singleplayer digs default:stone at (-62,-186,-64)
+2020-11-27 18:28:18: ACTION[Server]: singleplayer digs default:stone at (-62,-187,-64)
+2020-11-27 18:28:18: ACTION[Server]: singleplayer digs default:stone at (-62,-188,-64)
+2020-11-27 18:28:18: ACTION[Server]: singleplayer digs default:stone at (-62,-189,-64)
+2020-11-27 18:28:18: ACTION[Server]: singleplayer digs default:stone at (-62,-190,-64)
+2020-11-27 18:28:19: ACTION[Server]: singleplayer digs default:stone at (-62,-191,-64)
+2020-11-27 18:28:19: ACTION[Server]: singleplayer digs default:stone at (-62,-192,-64)
+2020-11-27 18:28:19: ACTION[Server]: singleplayer digs default:stone at (-62,-193,-64)
+2020-11-27 18:28:19: ACTION[Server]: singleplayer digs default:stone at (-62,-194,-64)
+2020-11-27 18:28:20: ACTION[Server]: singleplayer digs default:stone at (-62,-195,-64)
+2020-11-27 18:28:20: ACTION[Server]: singleplayer digs default:stone at (-62,-196,-64)
+2020-11-27 18:28:20: ACTION[Server]: singleplayer digs default:stone at (-62,-197,-64)
+2020-11-27 18:28:20: ACTION[Server]: singleplayer digs default:stone at (-62,-198,-64)
+2020-11-27 18:28:20: ACTION[Server]: singleplayer digs default:stone at (-62,-199,-64)
+2020-11-27 18:28:21: ACTION[Server]: singleplayer digs default:stone at (-62,-200,-64)
+2020-11-27 18:28:21: ACTION[Server]: singleplayer digs default:stone at (-62,-201,-64)
+2020-11-27 18:28:21: ACTION[Server]: singleplayer digs default:gravel at (-62,-202,-64)
+2020-11-27 18:28:21: ACTION[Server]: singleplayer digs default:gravel at (-62,-203,-64)
+2020-11-27 18:28:21: ACTION[Server]: singleplayer digs default:gravel at (-62,-204,-64)
+2020-11-27 18:28:22: ACTION[Server]: singleplayer digs default:gravel at (-62,-205,-64)
+2020-11-27 18:28:22: ACTION[Server]: singleplayer digs default:gravel at (-62,-206,-64)
+2020-11-27 18:28:22: ACTION[Server]: singleplayer digs default:stone at (-62,-207,-64)
+2020-11-27 18:28:22: ACTION[Server]: singleplayer digs default:stone_with_coal at (-62,-208,-64)
+2020-11-27 18:28:22: ACTION[Server]: singleplayer digs default:stone_with_coal at (-62,-209,-64)
+2020-11-27 18:28:23: ACTION[Server]: singleplayer digs default:stone at (-62,-210,-64)
+2020-11-27 18:28:23: ACTION[Server]: singleplayer digs default:stone_with_coal at (-62,-211,-64)
+2020-11-27 18:28:23: ACTION[Server]: singleplayer digs default:stone at (-62,-212,-64)
+2020-11-27 18:28:23: ACTION[Server]: singleplayer digs default:stone at (-62,-213,-64)
+2020-11-27 18:28:23: ACTION[Server]: singleplayer digs default:stone at (-62,-214,-64)
+2020-11-27 18:28:24: ACTION[Server]: singleplayer digs default:stone at (-62,-215,-64)
+2020-11-27 18:28:24: ACTION[Server]: singleplayer digs default:stone at (-62,-216,-64)
+2020-11-27 18:28:24: ACTION[Server]: singleplayer digs default:stone at (-62,-217,-64)
+2020-11-27 18:28:24: ACTION[Server]: singleplayer digs default:stone at (-62,-218,-64)
+2020-11-27 18:28:24: ACTION[Server]: singleplayer digs default:stone at (-62,-219,-64)
+2020-11-27 18:28:25: ACTION[Server]: singleplayer digs default:stone at (-62,-220,-64)
+2020-11-27 18:28:25: ACTION[Server]: singleplayer digs default:stone at (-62,-221,-64)
+2020-11-27 18:28:25: ACTION[Server]: singleplayer digs default:stone at (-62,-222,-64)
+2020-11-27 18:28:25: ACTION[Server]: singleplayer digs default:stone at (-62,-223,-64)
+2020-11-27 18:28:25: ACTION[Server]: singleplayer digs default:stone at (-62,-224,-64)
+2020-11-27 18:28:26: ACTION[Server]: singleplayer digs default:stone at (-62,-225,-64)
+2020-11-27 18:28:26: ACTION[Server]: singleplayer digs default:stone at (-62,-226,-64)
+2020-11-27 18:28:26: ACTION[Server]: singleplayer digs default:stone at (-62,-227,-64)
+2020-11-27 18:28:26: ACTION[Server]: singleplayer digs default:stone at (-62,-228,-64)
+2020-11-27 18:28:27: ACTION[Server]: singleplayer digs default:stone at (-62,-229,-64)
+2020-11-27 18:28:27: ACTION[Server]: singleplayer digs default:stone at (-62,-230,-64)
+2020-11-27 18:28:27: ACTION[Server]: singleplayer digs default:stone at (-62,-231,-64)
+2020-11-27 18:28:31: ACTION[Main]: Server: Shutting down
+
+
+-------------
+  Separator
+-------------
+
+2020-11-27 23:58:11: [Main]: Automatically selecting world at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\g]
+2020-11-28 00:00:40: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\d]
+2020-11-28 00:00:40: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:55749.
+2020-11-28 00:00:41: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-28 00:00:47: ACTION[Server]: singleplayer takes teleport:pad from creative inventory
+2020-11-28 00:00:52: ACTION[Server]: singleplayer places node teleport:pad at (-69,16,-56)
+2020-11-28 00:00:59: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-75,15,-66 above=-75,16,-66]
+2020-11-28 00:01:05: ACTION[Server]: singleplayer places node teleport:pad at (-62,17,-67)
+2020-11-28 00:01:10: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-57,16,-56 above=-57,17,-56]
+2020-11-28 00:01:11: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-64,16,-71 above=-64,17,-71]
+2020-11-28 00:01:13: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-64,16,-59 above=-64,17,-59]
+2020-11-28 00:01:14: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-64,16,-59 above=-64,17,-59]
+2020-11-28 00:01:15: ACTION[Server]: singleplayer uses teleport:command, pointing at [nothing]
+2020-11-28 00:01:17: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-67,16,-60 above=-67,17,-60]
+2020-11-28 00:01:34: ACTION[Server]: singleplayer uses teleport:command, pointing at [nothing]
+2020-11-28 00:01:48: ACTION[Server]: singleplayer activates teleport:command
+2020-11-28 00:01:51: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-66,15,-47 above=-66,16,-47]
+2020-11-28 00:01:52: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-67,15,-57 above=-67,16,-57]
+2020-11-28 00:01:53: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-68,15,-60 above=-68,16,-60]
+2020-11-28 00:02:00: ACTION[Main]: Server: Shutting down
+2020-11-28 00:18:38: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\k]
+2020-11-28 00:18:38: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:65381.
+2020-11-28 00:18:39: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-28 00:18:45: ACTION[Server]: singleplayer takes rot:dirt from creative inventory
+2020-11-28 00:18:47: ACTION[Server]: singleplayer takes rot:purgator from creative inventory
+2020-11-28 00:18:51: ACTION[Server]: singleplayer places node rot:dirt at (-64,16,-56)
+2020-11-28 00:18:52: ACTION[Server]: singleplayer places node rot:dirt at (-64,16,-55)
+2020-11-28 00:18:53: ACTION[Server]: singleplayer places node rot:dirt at (-65,16,-57)
+2020-11-28 00:18:53: ACTION[Server]: singleplayer places node rot:dirt at (-65,16,-56)
+2020-11-28 00:18:54: ACTION[Server]: singleplayer places node rot:dirt at (-65,16,-57)
+2020-11-28 00:18:57: ACTION[Server]: singleplayer places node rot:dirt at (-64,16,-55)
+2020-11-28 00:26:34: ACTION[Main]: Server: Shutting down
+2020-11-28 00:26:44: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\Unnamed83949]
+2020-11-28 00:26:44: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:57319.
+2020-11-28 00:26:47: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-28 00:26:52: ACTION[Server]: singleplayer takes rot:dirt from creative inventory
+2020-11-28 00:26:56: ACTION[Server]: singleplayer places node rot:dirt at (-64,16,-56)
+2020-11-28 00:27:14: ACTION[Server]: singleplayer places node rot:dirt at (-63,16,-57)
+2020-11-28 00:27:15: ACTION[Server]: singleplayer places node rot:dirt at (-63,17,-56)
+2020-11-28 00:27:15: ACTION[Server]: singleplayer places node rot:dirt at (-64,16,-56)
+2020-11-28 00:27:16: ACTION[Server]: singleplayer digs rot:dirt at (-63,17,-56)
+2020-11-28 00:27:16: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-63,16,-56)
+2020-11-28 00:27:17: ACTION[Server]: singleplayer places node rot:dirt at (-63,16,-56)
+2020-11-28 00:27:22: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-64,16,-57)
+2020-11-28 00:27:23: ACTION[Server]: singleplayer digs default:dirt at (-63,16,-57)
+2020-11-28 00:27:23: ACTION[Server]: singleplayer digs default:dirt at (-63,16,-56)
+2020-11-28 00:27:24: ACTION[Server]: singleplayer digs default:dirt at (-64,16,-56)
+2020-11-28 00:27:24: ACTION[Server]: singleplayer places node rot:dirt at (-63,16,-56)
+2020-11-28 00:27:24: ACTION[Server]: singleplayer places node rot:dirt at (-64,16,-56)
+2020-11-28 00:27:25: ACTION[Server]: singleplayer places node rot:dirt at (-63,16,-57)
+2020-11-28 00:27:25: ACTION[Server]: singleplayer places node rot:dirt at (-64,16,-57)
+2020-11-28 00:27:27: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-62,16,-59)
+2020-11-28 00:27:28: ACTION[Server]: singleplayer places node rot:dirt at (-62,16,-59)
+2020-11-28 00:27:29: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-63,16,-59)
+2020-11-28 00:27:29: ACTION[Server]: singleplayer places node rot:dirt at (-63,16,-59)
+2020-11-28 00:27:42: ACTION[Main]: Server: Shutting down
+2020-11-28 00:31:49: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\ROT]
+2020-11-28 00:31:49: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:53788.
+2020-11-28 00:31:50: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-28 00:31:52: ACTION[Main]: Server: Shutting down
+2020-11-28 00:31:55: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\ROT]
+2020-11-28 00:31:55: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:64463.
+2020-11-28 00:31:56: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-28 00:32:02: ACTION[Server]: singleplayer takes rot:dirt from creative inventory
+2020-11-28 00:32:03: ACTION[Server]: singleplayer takes rot:purgator from creative inventory
+2020-11-28 00:32:14: ACTION[Server]: singleplayer takes default:aspen_wood from creative inventory
+2020-11-28 00:32:17: ACTION[Server]: singleplayer places node default:aspen_wood at (-62,17,-60)
+2020-11-28 00:32:17: ACTION[Server]: singleplayer places node default:aspen_wood at (-62,18,-60)
+2020-11-28 00:32:17: ACTION[Server]: singleplayer places node default:aspen_wood at (-62,19,-60)
+2020-11-28 00:32:17: ACTION[Server]: singleplayer places node default:aspen_wood at (-62,20,-60)
+2020-11-28 00:32:18: ACTION[Server]: singleplayer places node default:aspen_wood at (-62,21,-60)
+2020-11-28 00:32:18: ACTION[Server]: singleplayer places node default:aspen_wood at (-62,22,-60)
+2020-11-28 00:32:18: ACTION[Server]: singleplayer places node default:aspen_wood at (-62,23,-60)
+2020-11-28 00:32:19: ACTION[Server]: singleplayer places node default:aspen_wood at (-62,24,-60)
+2020-11-28 00:32:19: ACTION[Server]: singleplayer places node default:aspen_wood at (-62,25,-60)
+2020-11-28 00:32:19: ACTION[Server]: singleplayer places node default:aspen_wood at (-62,26,-60)
+2020-11-28 00:32:19: ACTION[Server]: singleplayer places node default:aspen_wood at (-62,27,-60)
+2020-11-28 00:32:20: ACTION[Server]: singleplayer places node default:aspen_wood at (-62,28,-60)
+2020-11-28 00:32:20: ACTION[Server]: singleplayer places node default:aspen_wood at (-62,29,-60)
+2020-11-28 00:32:20: ACTION[Server]: singleplayer places node default:aspen_wood at (-62,30,-60)
+2020-11-28 00:32:21: ACTION[Server]: singleplayer places node default:aspen_wood at (-62,31,-60)
+2020-11-28 00:32:22: ACTION[Server]: singleplayer places node default:aspen_wood at (-62,32,-60)
+2020-11-28 00:32:22: ACTION[Server]: singleplayer places node default:aspen_wood at (-62,33,-60)
+2020-11-28 00:32:40: ACTION[Main]: Server: Shutting down
+2020-11-28 00:32:50: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\ROT]
+2020-11-28 00:32:50: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:56254.
+2020-11-28 00:32:51: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-28 00:33:00: ACTION[Server]: singleplayer damaged by 12 hp at (-58.746,18.918,-55.265)
+2020-11-28 00:33:02: ACTION[Server]: singleplayer places node rot:purgator at (-50,17,-44)
+2020-11-28 00:33:05: WARNING[Server]: Undeclared global variable "purge_rotdirt" accessed at ...\Practica3\minetest-5.3.0-win64\bin\..\mods\rot\init.lua:64
+2020-11-28 00:33:05: ERROR[Main]: ServerError: AsyncErr: ServerThread::run Lua: Runtime error from mod 'rot' in callback LuaABM::trigger(): ...\Practica3\minetest-5.3.0-win64\bin\..\mods\rot\init.lua:64: attempt to call global 'purge_rotdirt' (a nil value)
+2020-11-28 00:33:05: ERROR[Main]: stack traceback:
+2020-11-28 00:33:05: ERROR[Main]: 	...\Practica3\minetest-5.3.0-win64\bin\..\mods\rot\init.lua:64: in function <...\Practica3\minetest-5.3.0-win64\bin\..\mods\rot\init.lua:63>
+2020-11-28 00:33:05: ACTION[Server]: singleplayer leaves game. List of players: 
+2020-11-28 00:33:06: ACTION[Main]: Server: Shutting down
+2020-11-28 00:33:47: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\ROT]
+2020-11-28 00:33:47: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:60562.
+2020-11-28 00:33:50: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-28 00:33:57: ACTION[Main]: Server: Shutting down
+2020-11-28 00:34:39: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\rot]
+2020-11-28 00:34:39: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:64096.
+2020-11-28 00:34:40: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-28 00:34:41: ACTION[Main]: Server: Shutting down
+2020-11-28 00:34:45: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\rot]
+2020-11-28 00:34:45: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:56128.
+2020-11-28 00:34:46: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-28 00:35:23: ACTION[Server]: singleplayer takes rot:dirt from creative inventory
+2020-11-28 00:35:24: ACTION[Server]: singleplayer takes rot:purgator from creative inventory
+2020-11-28 00:35:28: ACTION[Server]: singleplayer places node rot:dirt at (-47,17,-48)
+2020-11-28 00:35:45: ACTION[Server]: singleplayer places node rot:purgator at (-45,18,-45)
+2020-11-28 00:35:54: ACTION[Server]: singleplayer places node rot:purgator at (-34,18,-42)
+2020-11-28 00:36:06: ACTION[Server]: singleplayer digs rot:purgator at (-34,18,-42)
+2020-11-28 00:36:23: ACTION[Server]: singleplayer damaged by 7 hp at (-38.121,5.02,-71.199)
+2020-11-28 00:36:28: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-38,9,-67)
+2020-11-28 00:36:30: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-39,10,-67)
+2020-11-28 00:36:32: ACTION[Server]: singleplayer digs rot:dirt at (-40,12,-68)
+2020-11-28 00:36:35: ACTION[Server]: singleplayer digs default:dirt at (-41,14,-69)
+2020-11-28 00:36:35: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-41,15,-69)
+2020-11-28 00:36:36: ACTION[Server]: singleplayer digs rot:dirt at (-43,15,-69)
+2020-11-28 00:36:39: ACTION[Server]: singleplayer places node rot:purgator at (-43,15,-75)
+2020-11-28 00:36:43: ACTION[Server]: singleplayer places node rot:purgator at (-51,15,-77)
+2020-11-28 00:37:19: ACTION[Server]: singleplayer places node rot:purgator at (-22,14,-71)
+2020-11-28 00:37:21: ACTION[Server]: singleplayer places node rot:purgator at (-20,14,-68)
+2020-11-28 00:37:21: ACTION[Server]: singleplayer places node rot:purgator at (-18,15,-67)
+2020-11-28 00:37:23: ACTION[Server]: singleplayer places node rot:purgator at (-11,13,-69)
+2020-11-28 00:37:26: ACTION[Server]: singleplayer places node rot:purgator at (-5,13,-70)
+2020-11-28 00:37:27: ACTION[Server]: singleplayer places node rot:purgator at (-4,13,-74)
+2020-11-28 00:37:28: ACTION[Server]: singleplayer places node rot:purgator at (-1,12,-77)
+2020-11-28 00:37:29: ACTION[Server]: singleplayer places node rot:purgator at (0,13,-79)
+2020-11-28 00:37:31: ACTION[Server]: singleplayer places node rot:purgator at (0,12,-82)
+2020-11-28 00:37:33: ACTION[Server]: singleplayer places node rot:purgator at (-3,12,-91)
+2020-11-28 00:37:34: ACTION[Server]: singleplayer places node rot:purgator at (-4,13,-96)
+2020-11-28 00:37:38: ACTION[Server]: singleplayer places node rot:purgator at (-9,12,-101)
+2020-11-28 00:37:45: ACTION[Main]: Server: Shutting down
+2020-11-28 00:37:57: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\Orichalcum]
+2020-11-28 00:37:57: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:61819.
+2020-11-28 00:37:58: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-28 00:37:59: ACTION[Main]: Server: Shutting down
+2020-11-28 00:38:07: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\Orichalcum]
+2020-11-28 00:38:07: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:54236.
+2020-11-28 00:38:07: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-28 00:38:33: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-28 00:38:34: ACTION[Server]: singleplayer takes mymod:orichalcum_lump from creative inventory
+2020-11-28 00:38:35: ACTION[Server]: singleplayer takes mymod:orichalcum_ingot from creative inventory
+2020-11-28 00:38:37: ACTION[Server]: singleplayer takes mymod:axe_orichalcum from creative inventory
+2020-11-28 00:38:39: ACTION[Server]: singleplayer takes mymod:sword_orichalcum from creative inventory
+2020-11-28 00:38:41: ACTION[Server]: singleplayer takes mymod:shovel_orichalcum from creative inventory
+2020-11-28 00:38:43: ACTION[Server]: singleplayer takes mymod:pick_orichalcum from creative inventory
+2020-11-28 00:38:52: ACTION[Server]: singleplayer takes default:furnace from creative inventory
+2020-11-28 00:38:58: ACTION[Server]: singleplayer takes default:stick from creative inventory
+2020-11-28 00:39:04: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-37,18,-29)
+2020-11-28 00:39:05: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-37,19,-29)
+2020-11-28 00:39:05: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-37,20,-29)
+2020-11-28 00:39:08: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-36,18,-30)
+2020-11-28 00:39:08: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-36,19,-30)
+2020-11-28 00:39:09: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-36,20,-30)
+2020-11-28 00:39:10: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-37,18,-30)
+2020-11-28 00:39:11: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-37,19,-30)
+2020-11-28 00:39:11: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-37,20,-30)
+2020-11-28 00:39:32: ACTION[Server]: singleplayer places node default:furnace at (-39,18,-37)
+2020-11-28 00:39:44: ACTION[Server]: singleplayer takes default:coal_lump from creative inventory
+2020-11-28 00:40:02: ACTION[Server]: singleplayer takes default:coal_lump from creative inventory
+2020-11-28 00:40:09: ACTION[Server]: singleplayer takes mymod:orichalcum_lump from creative inventory
+2020-11-28 00:40:11: ACTION[Server]: singleplayer takes mymod:orichalcum_ingot from creative inventory
+2020-11-28 00:40:45: ACTION[Server]: singleplayer takes default:chest from creative inventory
+2020-11-28 00:40:51: ACTION[Server]: singleplayer places node default:furnace at (-38,18,-37)
+2020-11-28 00:40:54: ACTION[Server]: singleplayer digs default:furnace at (-38,18,-37)
+2020-11-28 00:40:56: ACTION[Server]: singleplayer places node default:chest at (-38,18,-37)
+2020-11-28 00:41:44: ACTION[Server]: singleplayer takes mymod:stone_with_orichalcum from creative inventory
+2020-11-28 00:41:55: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-38,18,-42)
+2020-11-28 00:41:55: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-39,18,-42)
+2020-11-28 00:41:57: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-37,18,-42)
+2020-11-28 00:41:57: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-37,19,-42)
+2020-11-28 00:42:00: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-40,18,-42)
+2020-11-28 00:42:01: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-40,19,-42)
+2020-11-28 00:42:03: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-41,19,-42)
+2020-11-28 00:42:07: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-41,20,-42)
+2020-11-28 00:42:11: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-42,20,-42)
+2020-11-28 00:42:12: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-42,21,-42)
+2020-11-28 00:42:15: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-36,19,-42)
+2020-11-28 00:42:19: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-40,18,-42)
+2020-11-28 00:42:20: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-41,19,-42)
+2020-11-28 00:42:21: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-42,20,-42)
+2020-11-28 00:42:23: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-37,19,-42)
+2020-11-28 00:42:31: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-35,19,-42)
+2020-11-28 00:42:32: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-35,20,-42)
+2020-11-28 00:42:36: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-34,20,-42)
+2020-11-28 00:42:36: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-34,21,-42)
+2020-11-28 00:42:39: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-35,19,-42)
+2020-11-28 00:42:40: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-34,20,-42)
+2020-11-28 00:42:48: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-34,22,-42)
+2020-11-28 00:42:50: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-42,22,-42)
+2020-11-28 00:42:55: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-35,22,-42)
+2020-11-28 00:42:56: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-36,22,-42)
+2020-11-28 00:42:56: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-37,22,-42)
+2020-11-28 00:42:57: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-37,21,-42)
+2020-11-28 00:42:58: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-37,21,-42)
+2020-11-28 00:42:58: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-38,22,-42)
+2020-11-28 00:42:59: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-41,22,-42)
+2020-11-28 00:43:00: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-40,22,-42)
+2020-11-28 00:43:02: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-39,22,-42)
+2020-11-28 00:43:08: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-36,18,-42)
+2020-11-28 00:43:10: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-36,18,-42)
+2020-11-28 00:43:17: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-38,18,-40)
+2020-11-28 00:43:18: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-38,19,-40)
+2020-11-28 00:43:18: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-38,20,-40)
+2020-11-28 00:43:19: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-38,21,-40)
+2020-11-28 00:43:19: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-38,22,-40)
+2020-11-28 00:43:22: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-36,23,-42)
+2020-11-28 00:43:26: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-39,18,-40)
+2020-11-28 00:43:27: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-39,19,-40)
+2020-11-28 00:43:27: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-39,20,-40)
+2020-11-28 00:43:28: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-39,21,-40)
+2020-11-28 00:43:31: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-40,23,-42)
+2020-11-28 00:43:32: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-36,24,-42)
+2020-11-28 00:43:33: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-40,24,-42)
+2020-11-28 00:43:36: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-37,23,-42)
+2020-11-28 00:43:37: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-39,23,-42)
+2020-11-28 00:43:38: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-37,24,-42)
+2020-11-28 00:43:39: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-39,24,-42)
+2020-11-28 00:43:40: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-40,25,-42)
+2020-11-28 00:43:40: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-39,25,-42)
+2020-11-28 00:43:42: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-40,26,-42)
+2020-11-28 00:43:42: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-39,26,-42)
+2020-11-28 00:43:43: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-37,25,-42)
+2020-11-28 00:43:44: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-36,25,-42)
+2020-11-28 00:43:48: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-36,26,-42)
+2020-11-28 00:43:49: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-37,26,-42)
+2020-11-28 00:43:53: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-37,23,-42)
+2020-11-28 00:43:53: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-36,23,-42)
+2020-11-28 00:43:54: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-39,23,-42)
+2020-11-28 00:43:55: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-40,23,-42)
+2020-11-28 00:44:00: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-35,19,-42)
+2020-11-28 00:44:03: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-35,20,-42)
+2020-11-28 00:44:04: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-34,20,-42)
+2020-11-28 00:44:07: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-38,18,-40)
+2020-11-28 00:44:08: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-39,18,-40)
+2020-11-28 00:44:09: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-38,19,-40)
+2020-11-28 00:44:09: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-39,19,-40)
+2020-11-28 00:44:10: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-38,20,-40)
+2020-11-28 00:44:10: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-39,20,-40)
+2020-11-28 00:44:10: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-38,21,-40)
+2020-11-28 00:44:11: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-39,21,-40)
+2020-11-28 00:44:11: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-38,22,-40)
+2020-11-28 00:44:19: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-42,20,-42)
+2020-11-28 00:44:20: ACTION[Server]: singleplayer digs mymod:stone_with_orichalcum at (-41,20,-42)
+2020-11-28 00:44:22: ACTION[Server]: singleplayer places node mymod:stone_with_orichalcum at (-41,19,-42)
+2020-11-28 00:44:37: ACTION[Main]: Server: Shutting down
+2020-11-28 00:45:04: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\Teleport]
+2020-11-28 00:45:04: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:55768.
+2020-11-28 00:45:05: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-28 00:45:12: ACTION[Server]: singleplayer takes teleport:pad from creative inventory
+2020-11-28 00:45:19: ACTION[Server]: singleplayer places node teleport:pad at (-65,16,-49)
+2020-11-28 00:45:27: ACTION[Server]: singleplayer digs teleport:pad at (-65,16,-49)
+2020-11-28 00:45:29: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-52,16,-53 above=-52,17,-53]
+2020-11-28 00:45:31: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-64,15,-47 above=-64,16,-47]
+2020-11-28 00:45:31: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-64,15,-46 above=-64,16,-46]
+2020-11-28 00:45:32: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-64,15,-46 above=-64,16,-46]
+2020-11-28 00:45:32: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-64,15,-46 above=-64,16,-46]
+2020-11-28 00:45:41: ACTION[Server]: singleplayer places node teleport:pad at (-54,17,-55)
+2020-11-28 00:45:44: ACTION[Server]: singleplayer places node teleport:pad at (-54,17,-64)
+2020-11-28 00:45:47: ACTION[Server]: singleplayer places node teleport:pad at (-47,17,-62)
+2020-11-28 00:45:49: ACTION[Server]: singleplayer places node teleport:pad at (-46,17,-54)
+2020-11-28 00:46:04: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-47,16,-57 above=-47,17,-57]
+2020-11-28 00:46:06: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-52,16,-62 above=-52,17,-62]
+2020-11-28 00:46:08: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-52,16,-60 above=-52,17,-60]
+2020-11-28 00:46:09: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-48,16,-59 above=-48,17,-59]
+2020-11-28 00:46:18: ACTION[Main]: Server: Shutting down
+2020-11-28 00:46:48: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\Rot (Cuidado)]
+2020-11-28 00:46:48: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:49224.
+2020-11-28 00:46:51: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-28 00:46:56: ACTION[Server]: singleplayer takes rot:dirt from creative inventory
+2020-11-28 00:46:57: ACTION[Server]: singleplayer takes rot:purgator from creative inventory
+2020-11-28 00:47:03: ACTION[Server]: singleplayer places node rot:dirt at (-61,16,-52)
+2020-11-28 00:47:07: ACTION[Main]: Server: Shutting down
+2020-11-28 00:47:13: ERROR[Main]: ¡Por favor, elige un nombre!
