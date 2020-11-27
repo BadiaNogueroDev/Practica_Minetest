@@ -439,3 +439,211 @@
 2020-11-26 19:46:30: ACTION[Server]: singleplayer places node default:aspen_tree at (-63,35,-64)
 2020-11-26 19:46:30: ACTION[Server]: singleplayer places node default:aspen_tree at (-63,36,-64)
 2020-11-26 19:46:34: ACTION[Main]: Server: Shutting down
+2020-11-26 20:00:34: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\popo]
+2020-11-26 20:00:34: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:58324.
+2020-11-26 20:00:37: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 20:00:43: ACTION[Server]: singleplayer takes rot:purgator from creative inventory
+2020-11-26 20:00:45: ACTION[Server]: singleplayer takes rot:purgator from creative inventory
+2020-11-26 20:00:48: ACTION[Server]: singleplayer damaged by 14 hp at (-61.475,19.082,-64.128)
+2020-11-26 20:00:50: ACTION[Server]: singleplayer places node rot:purgator at (-57,17,-60)
+2020-11-26 20:01:07: ACTION[Server]: singleplayer places node rot:purgator at (-56,16,-60)
+2020-11-26 20:01:07: ACTION[Server]: singleplayer places node rot:purgator at (-56,17,-59)
+2020-11-26 20:01:08: ACTION[Server]: singleplayer places node rot:purgator at (-56,18,-59)
+2020-11-26 20:01:08: ACTION[Server]: singleplayer places node rot:purgator at (-57,16,-59)
+2020-11-26 20:01:12: ACTION[Main]: Server: Shutting down
+2020-11-26 20:01:35: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\PURGA]
+2020-11-26 20:01:35: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:59177.
+2020-11-26 20:01:36: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 20:01:42: ACTION[Server]: singleplayer takes rot:purgator from creative inventory
+2020-11-26 20:01:55: WARNING[Server]: active block modifiers took 202ms (processed 211 of 251 active blocks)
+2020-11-26 20:01:58: ACTION[Server]: singleplayer places node rot:purgator at (-52,17,-40)
+2020-11-26 20:02:05: WARNING[Server]: active block modifiers took 202ms (processed 222 of 251 active blocks)
+2020-11-26 20:02:19: ACTION[Server]: singleplayer digs rot:purgator at (-52,17,-40)
+2020-11-26 20:02:19: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-52,17,-39)
+2020-11-26 20:02:25: WARNING[Server]: active block modifiers took 206ms (processed 224 of 248 active blocks)
+2020-11-26 20:02:35: WARNING[Server]: active block modifiers took 203ms (processed 145 of 251 active blocks)
+2020-11-26 20:02:45: WARNING[Server]: active block modifiers took 208ms (processed 122 of 251 active blocks)
+2020-11-26 20:02:55: WARNING[Server]: active block modifiers took 223ms (processed 67 of 251 active blocks)
+2020-11-26 20:03:00: ACTION[Server]: singleplayer places node default:dirt at (-54,16,-47)
+2020-11-26 20:03:05: WARNING[Server]: active block modifiers took 204ms (processed 106 of 251 active blocks)
+2020-11-26 20:03:15: WARNING[Server]: active block modifiers took 223ms (processed 67 of 251 active blocks)
+2020-11-26 20:03:25: WARNING[Server]: active block modifiers took 212ms (processed 149 of 251 active blocks)
+2020-11-26 20:03:35: ACTION[Server]: singleplayer places node rot:purgator at (-34,15,-65)
+2020-11-26 20:03:35: WARNING[Server]: active block modifiers took 202ms (processed 75 of 241 active blocks)
+2020-11-26 20:03:37: ACTION[Server]: singleplayer digs rot:purgator at (-34,15,-65)
+2020-11-26 20:03:40: ACTION[Main]: Server: Shutting down
+2020-11-26 20:22:34: ERROR[Main]: ¡Por favor, elige un nombre!
+
+
+-------------
+  Separator
+-------------
+
+2020-11-26 21:27:58: [Main]: Automatically selecting world at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\PURGA]
+2020-11-26 21:28:18: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\l]
+2020-11-26 21:28:18: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:61388.
+2020-11-26 21:28:19: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 21:42:30: ACTION[Main]: Server: Shutting down
+
+
+-------------
+  Separator
+-------------
+
+2020-11-26 22:02:11: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\teleport]
+2020-11-26 22:02:11: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:58798.
+2020-11-26 22:02:12: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 22:02:14: ACTION[Main]: Server: Shutting down
+2020-11-26 22:02:22: ERROR[Main]: ModError: Failed to load and run script from C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\mods\teleport\init.lua:
+2020-11-26 22:02:22: ERROR[Main]: ...tica3\minetest-5.3.0-win64\bin\..\mods\teleport\init.lua:18: '}' expected (to close '{' at line 15) near 'on_use'
+2020-11-26 22:02:22: ERROR[Main]: Revisa debug.txt para más detalles.
+2020-11-26 22:02:22: ACTION[Main]: Server: Shutting down
+2020-11-26 22:03:50: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\teleport]
+2020-11-26 22:03:50: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:60503.
+2020-11-26 22:03:54: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 22:04:01: ACTION[Server]: singleplayer takes teleport:pad from creative inventory
+2020-11-26 22:04:02: ACTION[Server]: singleplayer takes teleport:command from creative inventory
+2020-11-26 22:04:04: ACTION[Server]: singleplayer places node teleport:pad at (-62,17,-62)
+2020-11-26 22:04:10: ACTION[Server]: singleplayer activates teleport:command
+2020-11-26 22:04:11: ACTION[Server]: singleplayer activates teleport:command
+2020-11-26 22:04:11: ACTION[Server]: singleplayer activates teleport:command
+2020-11-26 22:04:14: ACTION[Server]: singleplayer activates teleport:command
+2020-11-26 22:04:14: ACTION[Server]: singleplayer activates teleport:command
+2020-11-26 22:04:18: ACTION[Server]: singleplayer activates teleport:command
+2020-11-26 22:04:19: ACTION[Server]: singleplayer activates teleport:command
+2020-11-26 22:04:37: ACTION[Main]: Server: Shutting down
+2020-11-26 22:25:20: ERROR[Main]: ModError: Failed to load and run script from C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\mods\teleport\init.lua:
+2020-11-26 22:25:20: ERROR[Main]: ...tica3\minetest-5.3.0-win64\bin\..\mods\teleport\init.lua:18: '}' expected (to close '{' at line 15) near 'on_use'
+2020-11-26 22:25:20: ERROR[Main]: Revisa debug.txt para más detalles.
+2020-11-26 22:25:20: ACTION[Main]: Server: Shutting down
+2020-11-26 22:25:48: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\teleport]
+2020-11-26 22:25:48: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:56670.
+2020-11-26 22:25:49: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 22:25:52: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-63,16,-70 above=-63,17,-70]
+2020-11-26 22:25:53: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-59,16,-64 above=-59,17,-64]
+2020-11-26 22:25:53: ACTION[Server]: singleplayer uses teleport:command, pointing at [nothing]
+2020-11-26 22:25:54: ACTION[Server]: singleplayer activates teleport:command
+2020-11-26 22:27:44: ACTION[Server]: singleplayer takes stairs:slab_aspen_wood from creative inventory
+2020-11-26 22:28:01: ACTION[Server]: singleplayer places node stairs:slab_aspen_wood at (-58,17,-58)
+2020-11-26 22:29:05: ACTION[Server]: singleplayer takes stairs:slab_glass from creative inventory
+2020-11-26 22:29:07: ACTION[Server]: singleplayer places node stairs:slab_glass at (-57,17,-58)
+2020-11-26 22:31:40: ACTION[Server]: singleplayer places node teleport:pad at (-58,17,-60)
+2020-11-26 22:31:45: ACTION[Main]: Server: Shutting down
+2020-11-26 22:31:46: ERROR[Main]: ModError: Failed to load and run script from C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\mods\teleport\init.lua:
+2020-11-26 22:31:46: ERROR[Main]: ...tica3\minetest-5.3.0-win64\bin\..\mods\teleport\init.lua:15: '}' expected (to close '{' at line 5) near ')'
+2020-11-26 22:31:46: ERROR[Main]: Revisa debug.txt para más detalles.
+2020-11-26 22:31:46: ACTION[Main]: Server: Shutting down
+2020-11-26 22:32:24: ERROR[Main]: ModError: Failed to load and run script from C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\mods\teleport\init.lua:
+2020-11-26 22:32:24: ERROR[Main]: ...tica3\minetest-5.3.0-win64\bin\..\mods\teleport\init.lua:15: '}' expected (to close '{' at line 5) near ')'
+2020-11-26 22:32:24: ERROR[Main]: Revisa debug.txt para más detalles.
+2020-11-26 22:32:24: ACTION[Main]: Server: Shutting down
+2020-11-26 22:33:13: ERROR[Main]: ModError: Failed to load and run script from C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\mods\teleport\init.lua:
+2020-11-26 22:33:13: ERROR[Main]: ...tica3\minetest-5.3.0-win64\bin\..\mods\teleport\init.lua:14: '}' expected (to close '{' at line 5) near 'after_place_node'
+2020-11-26 22:33:13: ERROR[Main]: Revisa debug.txt para más detalles.
+2020-11-26 22:33:13: ACTION[Main]: Server: Shutting down
+2020-11-26 22:33:28: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\teleport]
+2020-11-26 22:33:28: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:61113.
+2020-11-26 22:33:28: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 22:33:31: ACTION[Server]: singleplayer places node teleport:pad at (-61,17,-59)
+2020-11-26 22:33:39: ACTION[Server]: singleplayer places node teleport:pad at (-56,17,-64)
+2020-11-26 22:34:28: ACTION[Main]: Server: Shutting down
+2020-11-26 22:34:30: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\teleport]
+2020-11-26 22:34:30: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:58416.
+2020-11-26 22:34:30: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 22:34:42: ACTION[Server]: singleplayer takes teleport:pad from creative inventory
+2020-11-26 22:34:43: ACTION[Server]: singleplayer places node teleport:pad at (-61,17,-54)
+2020-11-26 22:35:12: ACTION[Server]: singleplayer places node teleport:pad at (-58,17,-59)
+2020-11-26 22:35:18: ACTION[Main]: Server: Shutting down
+2020-11-26 22:37:39: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\a]
+2020-11-26 22:37:39: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:64231.
+2020-11-26 22:37:42: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-26 22:37:49: ACTION[Server]: singleplayer takes teleport:pad from creative inventory
+2020-11-26 22:37:50: ACTION[Server]: singleplayer places node teleport:pad at (-62,17,-62)
+2020-11-26 22:38:01: ACTION[Main]: Server: Shutting down
+2020-11-26 22:38:08: ERROR[Main]: ¡Por favor, elige un nombre!
+
+
+-------------
+  Separator
+-------------
+
+2020-11-27 17:17:57: [Main]: Automatically selecting world at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\a]
+2020-11-27 17:18:11: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\ñ]
+2020-11-27 17:18:11: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:64264.
+2020-11-27 17:18:11: ERROR[Main]: ServerError: AsyncErr: ServerThread::run Lua: Runtime error from mod '*builtin*' in callback on_prejoinplayer(): Failed to open SQLite3 database file C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\
+2020-11-27 17:18:11: ERROR[Main]: ..\worlds\ñ\auth.sqlite: unable to open database file
+2020-11-27 17:18:11: ERROR[Main]: stack traceback:
+2020-11-27 17:18:11: ERROR[Main]: 	[C]: in function 'read'
+2020-11-27 17:18:11: ERROR[Main]: 	...ctica3\minetest-5.3.0-win64\bin\..\builtin\game\auth.lua:133: in function <...ctica3\minetest-5.3.0-win64\bin\..\builtin\game\auth.lua:129>
+2020-11-27 17:18:11: ERROR[Main]: 	...a3\minetest-5.3.0-win64\bin\..\builtin\game\register.lua:429: in function <...a3\minetest-5.3.0-win64\bin\..\builtin\game\register.lua:413>
+2020-11-27 17:18:12: ACTION[Main]: Server: Shutting down
+2020-11-27 17:18:27: ERROR[Main]: ModError: Failed to load and run script from C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\mods\teleport\init.lua:
+2020-11-27 17:18:27: ERROR[Main]: ...tica3\minetest-5.3.0-win64\bin\..\mods\teleport\init.lua:21: unexpected symbol near 'end'
+2020-11-27 17:18:27: ERROR[Main]: Revisa debug.txt para más detalles.
+2020-11-27 17:18:27: ACTION[Main]: Server: Shutting down
+2020-11-27 17:18:50: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\f]
+2020-11-27 17:18:50: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:52985.
+2020-11-27 17:18:55: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-27 17:19:16: ACTION[Server]: singleplayer takes teleport:pad from creative inventory
+2020-11-27 17:19:17: ACTION[Server]: singleplayer places node teleport:pad at (-58,17,-61)
+2020-11-27 17:19:17: WARNING[Server]: Assignment to undeclared global "drop" inside a function at ...tica3\minetest-5.3.0-win64\bin\..\mods\teleport\init.lua:20.
+2020-11-27 17:22:58: ACTION[Main]: Server: Shutting down
+2020-11-27 17:23:01: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\f]
+2020-11-27 17:23:01: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:56212.
+2020-11-27 17:23:02: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-27 17:23:05: ACTION[Server]: singleplayer places node teleport:pad at (-57,17,-56)
+2020-11-27 17:23:07: ACTION[Server]: singleplayer uses teleport:command, pointing at [node under=-53,16,-52 above=-53,17,-52]
+2020-11-27 17:23:08: ACTION[Server]: singleplayer activates teleport:command
+2020-11-27 17:23:08: ACTION[Server]: singleplayer activates teleport:command
+2020-11-27 17:23:08: ACTION[Server]: singleplayer activates teleport:command
+2020-11-27 17:24:20: ACTION[Main]: Server: Shutting down
+2020-11-27 17:24:32: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\d]
+2020-11-27 17:24:32: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:56609.
+2020-11-27 17:24:34: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-27 17:24:46: ACTION[Server]: singleplayer takes rot:dirt from creative inventory
+2020-11-27 17:24:47: ACTION[Server]: singleplayer takes rot:purgator from creative inventory
+2020-11-27 17:25:01: ACTION[Server]: singleplayer places node rot:dirt at (-69,15,-50)
+2020-11-27 17:25:30: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-70,15,-52)
+2020-11-27 17:25:30: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-70,15,-53)
+2020-11-27 17:25:31: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-69,15,-52)
+2020-11-27 17:25:33: ACTION[Server]: singleplayer digs default:dirt at (-69,15,-51)
+2020-11-27 17:25:33: ACTION[Server]: singleplayer digs default:dirt at (-69,15,-50)
+2020-11-27 17:25:34: ACTION[Server]: singleplayer digs default:dirt_with_grass at (-70,14,-50)
+2020-11-27 17:25:35: ACTION[Server]: singleplayer digs default:dirt at (-70,14,-51)
+2020-11-27 17:25:36: ACTION[Server]: singleplayer digs default:dirt at (-69,14,-50)
+2020-11-27 17:25:37: ACTION[Server]: singleplayer digs default:stone at (-69,14,-51)
+2020-11-27 17:25:37: ACTION[Server]: singleplayer digs default:stone at (-69,14,-52)
+2020-11-27 17:25:38: ACTION[Server]: singleplayer digs default:stone at (-70,14,-52)
+2020-11-27 17:25:38: ACTION[Server]: singleplayer digs default:stone at (-70,14,-53)
+2020-11-27 17:25:45: ACTION[Server]: singleplayer places node rot:dirt at (-75,15,-58)
+2020-11-27 17:25:46: ACTION[Server]: singleplayer places node rot:dirt at (-75,15,-57)
+2020-11-27 17:25:47: ACTION[Server]: singleplayer places node rot:dirt at (-74,15,-56)
+2020-11-27 17:25:47: ACTION[Server]: singleplayer places node rot:dirt at (-75,15,-56)
+2020-11-27 17:25:49: ACTION[Server]: singleplayer places node rot:dirt at (-73,15,-55)
+2020-11-27 17:25:49: ACTION[Server]: singleplayer places node rot:dirt at (-73,15,-54)
+2020-11-27 17:25:49: ACTION[Server]: singleplayer places node rot:dirt at (-74,15,-55)
+2020-11-27 17:25:50: ACTION[Server]: singleplayer places node rot:dirt at (-74,15,-54)
+2020-11-27 17:25:50: ACTION[Server]: singleplayer places node rot:dirt at (-75,15,-55)
+2020-11-27 17:25:51: ACTION[Server]: singleplayer places node rot:dirt at (-75,15,-54)
+2020-11-27 17:26:02: ACTION[Server]: singleplayer digs flowers:dandelion_white at (-76,15,-53)
+2020-11-27 17:26:09: ACTION[Main]: Server: Shutting down
+2020-11-27 17:28:47: ERROR[Main]: ModError: Failed to load and run script from C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\mods\rot\init.lua:
+2020-11-27 17:28:47: ERROR[Main]: ...a3\minetest-5.3.0-win64\bin\..\builtin\game\register.lua:82: Required field 'action' of type function
+2020-11-27 17:28:47: ERROR[Main]: stack traceback:
+2020-11-27 17:28:47: ERROR[Main]: 	[C]: in function 'assert'
+2020-11-27 17:28:47: ERROR[Main]: 	...a3\minetest-5.3.0-win64\bin\..\builtin\game\register.lua:82: in function 'register_abm'
+2020-11-27 17:28:47: ERROR[Main]: 	...\Practica3\minetest-5.3.0-win64\bin\..\mods\rot\init.lua:85: in main chunk
+2020-11-27 17:28:47: ERROR[Main]: Revisa debug.txt para más detalles.
+2020-11-27 17:28:47: ACTION[Main]: Server: Shutting down
+2020-11-27 17:32:45: ERROR[Main]: ModError: Failed to load and run script from C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\mods\rot\init.lua:
+2020-11-27 17:32:45: ERROR[Main]: ...a3\minetest-5.3.0-win64\bin\..\builtin\game\register.lua:82: Required field 'action' of type function
+2020-11-27 17:32:45: ERROR[Main]: stack traceback:
+2020-11-27 17:32:45: ERROR[Main]: 	[C]: in function 'assert'
+2020-11-27 17:32:45: ERROR[Main]: 	...a3\minetest-5.3.0-win64\bin\..\builtin\game\register.lua:82: in function 'register_abm'
+2020-11-27 17:32:45: ERROR[Main]: 	...\Practica3\minetest-5.3.0-win64\bin\..\mods\rot\init.lua:85: in main chunk
+2020-11-27 17:32:45: ERROR[Main]: Revisa debug.txt para más detalles.
+2020-11-27 17:32:45: ACTION[Main]: Server: Shutting down
+2020-11-27 17:32:57: ACTION[Main]: World at [C:\Users\sarax\Documents\Clase\Programacio Llenguatges\Prac3_SaraBadia\Practica3\minetest-5.3.0-win64\bin\..\worlds\aaaaa]
+2020-11-27 17:32:57: ACTION[Main]: Server for gameid="minetest" listening on 0.0.0.0:56264.
+2020-11-27 17:32:58: ACTION[Server]: singleplayer [127.0.0.1] joins game. List of players: singleplayer
+2020-11-27 17:33:00: ACTION[Main]: Server: Shutting down

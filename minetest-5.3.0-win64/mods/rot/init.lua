@@ -19,8 +19,8 @@ minetest.register_node("rot:purgator", {
 --Crear rot
 minetest.register_abm({
  nodenames = {"default:dirt"},
- interval = 12.0,
- chance = 50,
+ interval = 60.0,
+ chance = 500,
  action = function(pos, node, active_object_count, active_object_count_wider)
   local pos = {x = pos.x, y = pos.y, z = pos.z}
   minetest.set_node(pos, {name = "rot:dirt"})

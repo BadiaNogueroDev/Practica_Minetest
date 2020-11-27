@@ -5,4 +5,5 @@ gameid = minetest
 auth_backend = sqlite3
 player_backend = sqlite3
 load_mod_rot = true
-load_mod_mymod = true
+load_mod_mymod = false
+load_mod_teleport = false
